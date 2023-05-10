@@ -2,13 +2,17 @@ project:
   type: book
 
 book:
-  title: "emprendimiento_book"
-  author: "Norah Jones"
-  date: "10/5/2023"
+  title: "Emprendimiento con Datos en Turismo"
+  author: "Francisco J. Navarro-Meneses, Editor"
+  date: "5/10/2023"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - 1_turismo_datos_emprendimiento.qmd
+    - 2_metodos_tecnologias.qmd
+    - 3_proceso.qmd
+    - 4_practicas_gestion.qmd
+    - 5_oportunidades.qmd
     - references.qmd
 
 bibliography: references.bib
