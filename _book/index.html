@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -191,7 +157,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#prefacio" id="toc-prefacio" class="nav-link active" data-scroll-target="#prefacio">Prefacio</a></li>
+  <li><a href="#prefacio" id="toc-prefacio" class="nav-link active" data-scroll-target="#prefacio">Prefacio</a>
+  <ul class="collapse">
+  <li><a href="#titular" id="toc-titular" class="nav-link" data-scroll-target="#titular">Titular</a>
+  <ul class="collapse">
+  <li><a href="#titular-1" id="toc-titular-1" class="nav-link" data-scroll-target="#titular-1">Titular</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -229,16 +201,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="prefacio" class="level1 unnumbered">
 <h1 class="unnumbered">Prefacio</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat.</p>
+<section id="titular" class="level2">
+<h2 class="anchored" data-anchor-id="titular">Titular</h2>
+<p>Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.</p>
+<section id="titular-1" class="level3">
+<h3 class="anchored" data-anchor-id="titular-1">Titular</h3>
+<p>Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus.</p>
 <p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

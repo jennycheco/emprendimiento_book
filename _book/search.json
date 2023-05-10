@@ -4,20 +4,55 @@
     "href": "index.html",
     "title": "Emprendimiento con Datos en Turismo",
     "section": "",
-    "text": "Prefacio\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Prefacio\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "index.html#titular",
+    "href": "index.html#titular",
+    "title": "Emprendimiento con Datos en Turismo",
+    "section": "Titular",
+    "text": "Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\nTitular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus.\nThis is a Quarto book."
+  },
+  {
+    "objectID": "intro.html#titular",
+    "href": "intro.html#titular",
     "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "1.1 Titular",
+    "text": "1.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n1.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "objectID": "1_turismo_datos_emprendimiento.html#titular",
+    "href": "1_turismo_datos_emprendimiento.html#titular",
+    "title": "2  Turismo, Datos y Emprendimiento",
+    "section": "2.1 Titular",
+    "text": "2.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n2.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
+  },
+  {
+    "objectID": "2_metodos_tecnologias.html#titular",
+    "href": "2_metodos_tecnologias.html#titular",
+    "title": "3  Métodos y Tecnologías",
+    "section": "3.1 Titular",
+    "text": "3.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n3.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
+  },
+  {
+    "objectID": "3_proceso.html#titular",
+    "href": "3_proceso.html#titular",
+    "title": "4  Proceso Emprendedor",
+    "section": "4.1 Titular",
+    "text": "4.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n4.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
+  },
+  {
+    "objectID": "4_practicas_gestion.html#titular",
+    "href": "4_practicas_gestion.html#titular",
+    "title": "5  Prácticas de Gestión",
+    "section": "5.1 Titular",
+    "text": "5.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n5.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
+  },
+  {
+    "objectID": "5_oportunidades.html#titular",
+    "href": "5_oportunidades.html#titular",
+    "title": "6  Oportunidades",
+    "section": "6.1 Titular",
+    "text": "6.1 Titular\nEtiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.\n\n6.1.1 Titular\nVivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus."
   }
 ]
