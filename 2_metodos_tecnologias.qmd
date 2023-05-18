@@ -1,37 +1,52 @@
 # Métodos y Tecnologías
 Autora: Ana Gabriela Echeverría Solís
-## Titular
-### Titular
-1. Intro al capítulo con los siguientes puntos: 
-* Destacar la importancia de un buen método y selección de la tecnología adecuada al proyecto. 
-* Orientadas a conocer los detalles y características del target.
-* Personalizar los productos, servicios, experiencias.
-3. Método
+
+## Objetivos del capítulo
+
+## Introducción al capítulo
+
+* Destacar la importancia de un buen método y selección de la tecnología adecuada al proyecto.
+* Digitalización 
+* Smart - datos del target.
+* Objetivos: Personalización | Anticipación | Corrección.
+* Control + Innovación + tecnología + Sostenibilidad + Comunidad
+
+## Métodos
+
+### ¿Por dónde comienzar?
+Propuestas y conclusión.
+
+### Desde la perspectiva del emprendedurismo
+* Plan de negocios
+ Investigación de mercado
 * Detectar oportunidades y amenazas: Análisis externo
 * Detectar fortalezas y debildiades: Análisis interno
 * Benchmarking: mejores prácticas
 * Tendencias y tecnologías emergentes
 * La innovación como ventaja competitiva
-4. Tecnologías y soluciones
-Cómo elegir la mejor tecnología para solucionar los retos del proyecto
-* TIC -> Definición y cómo ayudan en la gestión.
-* Plataformas de reserva, ventas y gestión
-* Herramientas de márketing digigal
-* IoT / Wearables (QR dinámico, chips NFC, Beacon, Smart rooms)
-* CRM Turísticos
-* Web 3.0
-* Entornos visuales /virtuales / Modelado 2D / 3D / Metaverso
-* Soluciones HW / SW
-* Proveedores de datos
-* Seguridad / Blockchain / Control de aforos
-* GIS 
-* Cartelera inteligente / Tótems / Señalización turística
-* Chatbots / procesamiento del lenguaje natural
-* Desarrollo de Apps
-* Drones
-* Gestión eficiente de recursos: agua / energía / residuos / calidad del aire
-* Movilidad / Transporte
-* Plataformas de comunicación / Formación / Webinars
-* Sanidad
-* Sensorización
-* Sistemas de analítica de datos (Big data / BI)
+### Desde la perspectiva del turismo
+### Método para emprendimiento en turismo y datos.
+
+## Tecnologías
+
+TIC -> Definición y cómo ayudan en la gestión.
+Plataformas de reserva, ventas y gestión
+Herramientas de márketing digigal
+IoT / Wearables (QR dinámico, chips NFC, Beacon, Smart rooms)
+CRM Turísticos
+Web 3.0
+Entornos visuales /virtuales / Modelado 2D / 3D / Metaverso
+Soluciones HW / SW
+Proveedores de datos
+Seguridad / Blockchain / Control de aforos
+GIS 
+Cartelera inteligente / Tótems / Señalización turística
+Chatbots / procesamiento del lenguaje natural
+Desarrollo de Apps
+Drones
+Gestión eficiente de recursos: agua / energía / residuos / calidad del aire
+Movilidad / Transporte
+Plataformas de comunicación / Formación / Webinars
+Sanidad
+Sensorización
+Sistemas de analítica de datos (Big data / BI)
