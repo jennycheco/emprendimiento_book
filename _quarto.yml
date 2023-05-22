@@ -4,7 +4,7 @@ project:
 book:
   title: "Emprendimiento con Datos en Turismo"
   author: "Francisco J. Navarro-Meneses, Editor"
-  date: "5/10/2023"
+  date: "5/22/2023"
   chapters:
     - index.qmd
     - intro.qmd
@@ -15,6 +15,7 @@ book:
     - 5_oportunidades.qmd
     - 6_etica.qmd
     - 7_finanzas.qmd
+    - 8_clientes.qmd
     - references.qmd
 
 bibliography: references.bib
