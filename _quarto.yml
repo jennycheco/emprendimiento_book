@@ -13,6 +13,7 @@ book:
     - 3_proceso.qmd
     - 4_practicas_gestion.qmd
     - 5_oportunidades.qmd
+    - 6_ética.qmd
     - references.qmd
 
 bibliography: references.bib
