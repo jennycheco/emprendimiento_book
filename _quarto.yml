@@ -16,6 +16,7 @@ book:
     - 6_etica.qmd
     - 7_finanzas.qmd
     - 8_clientes.qmd
+    - 9_gobierno.qmd
     - references.qmd
 
 bibliography: references.bib
