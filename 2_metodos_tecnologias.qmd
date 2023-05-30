@@ -23,7 +23,7 @@ Seguramente, en varias ocasiones has escuchado que estamos en el mundo de las es
 
 Aquí introducir algo sobre las metodologías de implantación de los sitemas de información. 
 
-
+Curioseando<- c("algo", "algo2)
 
 ### ¿Por dónde comienzar?
 Propuestas y conclusión.
