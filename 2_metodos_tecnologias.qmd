@@ -4,6 +4,7 @@ Autora: Ana Gabriela Echeverría Solís
 ## Objetivos del capítulo
 
 ## Introducción al capítulo
+“Los datos no son información; la información no es conocimiento; el conocimiento no es entendimiento; el entendimiento no es sabiduría”, Cliffor Paul Stoll, astrofísico estadounidense (2006) FUENTE
 
 * Destacar la importancia de un buen método y selección de la tecnología adecuada al proyecto.
 * Digitalización 
@@ -23,13 +24,20 @@ Seguramente, en varias ocasiones has escuchado que estamos en el mundo de las es
 
 Aquí introducir algo sobre las metodologías de implantación de los sitemas de información. 
 
-Curioseando<- c("algo", "algo2")
-
-Curioseando
 
 
 ### ¿Por dónde comienzar?
 Propuestas y conclusión.
+Resulta pertinente tener en cuenta el origen del Big Data, surge de la evolución de las redes de datos a través de internet. "Hay que visualizarlo como muchas bases de datos de fuentes y orígenes diferentes que, hasta el desarrollo de las interconexiones a través de internet, funcionaban de manera aislada y que a partir del momento en que es posible trabajar con todos esos datos simultáneamente se convierten en una especie de gran base de datos con tipologías y formatos de datos diferentes". Variedad, volúmen y velocidad, conocidas como "las tres V", son las características que, invariablemente, se conjugan cuando nos referimos a Big Data. (NO TENGO FUENTE DE ESTO)
+
+¿Qué hay del Small Data?
+Teniendo en cuenta la arquitectura o imagen global de a dónde quieres que tu proyecto llegue, optimizarás los recursos necesarios desarrollando, en la etapa de planeación, los cimientos indispensables que soportarán la estructura del proyecto y que te permitirán discernir entre las partes medulares de la estructura y las no medulares. 
+
+Así que comencemos con la arquitectura para el Small Data. 
+
+Aquí un método para cimientos de "las 3 V"
+
+
 
 ### Desde la perspectiva del emprendedurismo
 * Plan de negocios
