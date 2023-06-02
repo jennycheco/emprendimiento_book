@@ -6,6 +6,22 @@ Autora: Ana Gabriela Echeverría Solís
 ## Introducción al capítulo
 “Los datos no son información; la información no es conocimiento; el conocimiento no es entendimiento; el entendimiento no es sabiduría”, Cliffor Paul Stoll, astrofísico estadounidense (2006) FUENTE
 
+En el turismo, el aprovechamiento del big data implica contar con datos en tiempo real acerca de los viajeros, sus trayectos, preferencias y prioridades. Esta abundante información brinda amplias oportunidades para optimizar las operaciones de viaje, personalizar las ofertas, mejorar la prestación de servicios y abrir nuevos canales.
+
+******Requerimientos técnicos:
+
+Conocimientos en programación: Es fundamental tener habilidades en lenguajes de programación como Python, Java o R, para desarrollar scripts y programas que puedan interactuar con la API de Google Maps, realizar web scraping u otras tareas de extracción y procesamiento de datos.
+Conocimientos en bases de datos: Debes tener experiencia en bases de datos para almacenar y gestionar los datos extraídos de los comentarios de los clientes. Es recomendable familiarizarse con tecnologías como MySQL, MongoDB o PostgreSQL.
+Conocimientos en Big Data: Es necesario comprender los conceptos y técnicas relacionados con el procesamiento y análisis de grandes volúmenes de datos. Esto incluye el uso de herramientas y tecnologías como Hadoop, Spark, Apache Kafka y sistemas de almacenamiento distribuido.
+Experiencia en análisis de datos: Debes tener habilidades en el análisis de datos, incluyendo técnicas de minería de texto y análisis de sentimiento. Esto implica conocimientos en estadística, aprendizaje automático (machine learning) y visualización de datos.
+Competencias humanas:
+Curiosidad y capacidad de aprendizaje: Dado que el campo de Big Data está en constante evolución, es importante tener una actitud de aprendizaje continuo y estar dispuesto a explorar nuevas tecnologías y técnicas.
+Pensamiento analítico: Debes tener habilidades para analizar y comprender los datos extraídos de los comentarios de los clientes, identificar patrones, tendencias y obtener información significativa.
+Capacidad de resolución de problemas: En el procesamiento y análisis de grandes volúmenes de datos, pueden surgir desafíos técnicos y obstáculos. Es importante contar con habilidades para resolver problemas de manera eficiente y efectiva.
+Conocimiento del dominio: Es beneficioso tener conocimientos en el campo del turismo y comprender los aspectos relevantes relacionados con la experiencia del cliente y las dinámicas del sector.
+Ética y privacidad: Es crucial tener una sólida comprensión de los aspectos éticos y legales relacionados con la recopilación y procesamiento de datos. Debes asegurarte de cumplir con las políticas y regulaciones de privacidad y protección de datos.********
+
+
 * Destacar la importancia de un buen método y selección de la tecnología adecuada al proyecto.
 * Digitalización 
 * Smart - datos del target.
@@ -15,6 +31,7 @@ Autora: Ana Gabriela Echeverría Solís
 Conceptos: Estructurados/No estructurados
 Diferencia entre automatización vs robotización. 
 La automatización de procesos ofrece fiabilidad y una excelente productividad cuando se trata de trabajar en entornos fuertemente estructurados. La robotización tiene la ventaja de contar con autonomía de decisión, permitiendo trabajar en entornos cambiantes. 
+
 
 ## Métodos
 Gaby: Tomar en cuenta la metodología para sistemas
