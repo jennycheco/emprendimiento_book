@@ -1,4 +1,15 @@
 # References {.unnumbered}
+Gestión de datos: Conceptos, Mejores Prácticas y Beneficios. (n.d.). Tecnologías de Información: Sistemas de Gestión y Administración. Retrieved June 2, 2023, from https://www.tecnologias-informacion.com/gestiondatos.html
 
+
+Mejores prácticas para el análisis avanzado y la gestión de datos. (2022, January 17). ManageEngine Blog. Retrieved June 2, 2023, from https://blogs.manageengine.com/espanol/2022/01/17/mejores-practicas-analisis-avanzado-gestion-de-datos.htm
+
+lMontenegro, I. (2019, October 11). Gestión de datos: 5 mejores prácticas para manejarlos de forma efectiva. GB Advisors. Retrieved June 2, 2023, from https://www.gb-advisors.com/es/gestion-de-datos/
+
+Plataforma de gestión de datos: 5 mejores prácticas para la gestión de la información. (2021, June 17). Tatic. Retrieved June 2, 2023, from https://tatic.net/es/blog/plataforma-de-gestion-de-datos-5-mejores-practicas-para-la-gestion-de-la-informacion/
+
+10 buenas prácticas de las empresas data-driven. (2022, February 7). El Valor de la Gestión de Datos. Retrieved June 2, 2023, from https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/10-buenas-practicas-de-las-empresas-data-driven
+
+Zúñiga, M. (2022, August 12). Nueve mejores prácticas para evitar una mala gestión de datos. IT Masters Mag. Retrieved June 2, 2023, from https://www.itmastersmag.com/noticias-analisis/nueve-mejores-practicas-para-evitar-una-mala-gestion-de-datos/
 ::: {#refs}
 :::
