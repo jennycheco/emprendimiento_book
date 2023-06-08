@@ -72,8 +72,10 @@ Por un lado, podemos destacar el volumen, y es que los conjuntos de datos pueden
 
 ### Aplicación de las tecnologías al emprendedor
 
-
-
+La aplicación de smart data coo tecnología junto con IA, Bid Data y el reto de las tecnologías a gran escala implica utilizar técnicas y herramientas avanzadas de análisis de datos para obtener información relevante y tomar decisiones inteligentes en el contexto de un negocio o proyecto emprendedor. Antes de empezar, es fundamental tener claridad sobre los objetivos que se desealograr con el análisis de datos. ¿Se busca identificar oportunidades de mercado? ¿Optimizar  estrategias de marketing? ¿Mejorar la eficiencia operativa? Establecer objetivos claros ayudará a enfocar los esfuerzos durante los comienzos de nuevos proyectos. Una vez se han establecido cuales son los objetivos a lograr con los medios e información que tenemos se debe tener claro cuales son las fuentes de datos que se van a usar, es decir, las que son más relevantes para el negocio. 
+Ya seleccionadas las fuentes hay que asegurarse que los datos sean claros, precisos y estén actualizados. Como hemos visto en los anteriores apartados, al tratarse de grandes cantidades de información para las nuevas tecnologías y sobre todo, las que son de libre uso como las redes sociales pueden tener datos falsos, debiendo tener cuidado de no medir con esta información. Estos datos deben ser recopilados, clasificados y almacenados con herramientas de gestión de bases de datos o plataformas de almacenamiento en la nube para facilitar este proceso debiendo asegurarse del cumplimiento de las diferentes normativas de GDPR, pero a su vez  los datos recopilados pueden contener errores, valores atípicos o información irrelevante. 
+Es necesario realizar una limpieza y preprocesamiento de los datos para eliminar inconsistencias y asegurar su calidad. Esto implica tareas como eliminar registros duplicados, corregir errores y completar datos faltantes. Es aquí cuando entra en juego la aplicación de técnicas de análisis como el machine learning o la minería de datos y análisis estadístico para extraer información valiosa de los datos. Estas técnicas permitirán identificar patrones, tendencias, correlaciones y otros conocimientos relevantes para el negocio. Junto con el análisis se debe hacer una interpretación de los datos mediante gráficos y tablas. Una vez obtenidos los resultados del análisis, es importante interpretarlos en el contexto de cada negocio, evaluando los hallazgos obtenidos y utilizándolos como base para tomar decisiones informadas.
+La aplicación de Smart Data es un proceso continuo. A medida que se obtenga más datos y se realicen nuevos análisis, es importante mejorar los enfoques, aprendiendo de los resultados obtenidos y ajustando las estrategias para optimizar la toma de decisiones.
 
 ### Beneficios y limitaciones del análisis de datos en el sector turístico
 
@@ -97,3 +99,10 @@ Es, D. G. (2023, febrero 7). Radiografía del dataspace nacional de Turismo: ret
 El Sistema de Inteligencia Turística ayuda a los destinos a conocer las necesidades de los turistas. (2016, junio 2). SEGITTUR. https://www.segittur.es/sala-de-prensa/notas-de-prensa/el-sistema-de-inteligencia-turistica-ayuda-a-los-destinos-a-conocer-las-necesidades-de-los-turistas/
 Sabadell, B. (s/f). El Blog de Banco Sabadell. El Blog de Banco Sabadell. Recuperado el 8 de junio de 2023, de https://blog.bancsabadell.com/2018/04/las-cuatro-v-del-big-data-volumen-variedad-velocidad-veracidad-que-es-el-big-data-para-que-sirve-con-sabadell-campus.html
 Hosteltur. (2023, marzo 24). Airbnb supera las cifras prepandemia a lo grande. Hosteltur. https://www.hosteltur.com/156656_airbnb-supera-las-cifras-prepandemia-a-lo-grande.html
+Hosteltur. (s/f). Las 6 claves del uso del Big Data en el turismo. Hosteltur: Toda la información de turismo. Recuperado el 8 de junio de 2023, de https://www.hosteltur.com/comunidad/005340_las-6-claves-del-uso-del-big-data-en-el-turismo.html
+Juan, C. (2023). Las oportunidades de negocio que ofrece el Big Data en el sector turístico. Thinking for Innovation. https://www.iebschool.com/blog/big-data-en-el-sector-turistico-big-data/
+Braintrust-Ekm, C. (2019, septiembre 19). Why should the tourism company know its customers? BrainTrust CS. https://www.braintrust-cs.com/en/empresa-turistica-conocer-clientes/
+López, R. G. (2022, junio 30). Tecnologías que transforman el turismo. Marketing Turístico Digital - Las nuevas tendencias del Marketing Digital incorporadas al sector turístico. https://marketingturisticodigital.com/2022/06/30/tecnologia-y-turismo/
+
+
+
