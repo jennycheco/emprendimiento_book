@@ -4,9 +4,14 @@ Autora: Ana Gabriela Echeverría Solís
 ## Objetivos del capítulo
 
 ## Introducción al capítulo
-“Los datos no son información; la información no es conocimiento; el conocimiento no es entendimiento; el entendimiento no es sabiduría”, Cliffor Paul Stoll, astrofísico estadounidense (2006) FUENTE
+“Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006) 
+Fuente: https://citas.in/frases/2052378-clifford-stoll-los-datos-no-son-informacion-la-informacion-no-es/a
+
+En la vida empresarial es común acumular datos sobre las transacciones diarias en torno a la compra-venta del producto o servicio. También se acumulan datos en torno a la operación de la empresa. Con m
 
 En el turismo, el aprovechamiento del big data implica contar con datos en tiempo real acerca de los viajeros, sus trayectos, preferencias y prioridades. Esta abundante información brinda amplias oportunidades para optimizar las operaciones de viaje, personalizar las ofertas, mejorar la prestación de servicios y abrir nuevos canales.
+
+
 
 ******Requerimientos técnicos:
 
