@@ -1,11 +1,48 @@
 # Introducción {.unnumbered}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat.
+- The  development  of technology and the mounting use of information communication technology (ICT) have an important role for the business organisations and operations
+- Although the need of having a reliable ICT is apparent, there are many business organisations that do not adopt this technology. For a large business organisation with ample human and financial resources, the adoption of ICT  may not be a significant problem.  However,  for  small-sized  business  organisations  which face  resources limitations, the ICT adoption becomes a problem. 
+- This issue turns out to be more severe for small businesses in developing countries such as Indonesia, in which its entrepreneurs face education and cultural constraints (Anggadwita et al., 2015; Tambunan, 2011)
+- This is not a book about studying the adoption of ICT and data by entrepreneurs, but about how to help them 
 
-## Titular
+## Benefits and Types of Data
 
-Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.
+- ICT could help the business organisation to achieve a greater efficiency and lower cost in their operation. 
+- Impact of data on business productivity, cost, revenue, and profitability (Gërguri-Rashiti et al., 2017). 
+- Data and ICT to push innovation and business performance (Ramadani et al., 2016). 
+- From a consumer perspective, ICT, especially the internet, has an impact on the way consumers purchase products and services. 
+- The Internet more reliable and affordable for many customers. It is now easier for the consumer to find information and vendors of a product or service, not only from the local market, but also from the global market. 
+- Having well developed and operationalised ICT is an important  factor  to  build  the  competitive  business  advantage  (Gërguri-Rashiti  et  al., 2017).
 
-### Titular
+### Index
 
-Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus.
+1. Context and Background
+  - Entrepreneurship and tourism
+  - Entrepreneurs, data and ICT
+  - Characteristics of the entrepreneurial firm
+2. Understanding data
+  - What is data?
+  - Benefits of data
+  - Types of Data
+  - The Data life-cycle
+  - Management of data in small enterprises
+3. The Entrepreneurial data-driven process
+  - The classic vs data-driven entrepreneurial process
+4. Methods and Technologies
+  - Deployment methods
+  - Cloud and entrepreneurs
+  - Low code
+  - Big data for entrepreneurs
+5. Data considerations for Tourism Entrepreneurs
+  - Ética de Datos y Emprendimiento
+  - Finanzas de Datos para Emprendedores
+  - Conocimiento del Cliente a través de los Datos
+  - La Gobernanza de Datos en PYMEs Emprendedoras
+6. Starting-up a data-driven entrepreneur (Wrapping all up)
+  - Stages
+  - Leadership styles
+7. What's next
+  - Role of AI
+  - IoT
+  - Big Data and analytics
+
