@@ -2,18 +2,17 @@
 Autora: Ana Gabriela Echeverría Solís
 
 ## Objetivos del capítulo
+Orientar al emprendedor en el ámbito turístico sobre los métodos aplicables a la toma de decisiones basada en datos, proporcionando una descripción detallada y pasos específicos para lograrlo, desde la recopilación de datos hasta la aplicación práctica.
 
 ## Introducción al capítulo
-“Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006) 
-Fuente: https://citas.in/frases/2052378-clifford-stoll-los-datos-no-son-informacion-la-informacion-no-es/a
 
-En la vida empresarial es común acumular datos sobre las transacciones diarias en torno a la compra-venta del producto o servicio. También se acumulan datos en torno a la operación de la empresa. Con m
+Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006). 
 
-En el turismo, el aprovechamiento del big data implica contar con datos en tiempo real acerca de los viajeros, sus trayectos, preferencias y prioridades. Esta abundante información brinda amplias oportunidades para optimizar las operaciones de viaje, personalizar las ofertas, mejorar la prestación de servicios y abrir nuevos canales.
+Esta frase resalta la importancia de ir más allá de la simple recopilación de datos y aprovecharlos de manera efectiva para obtener conocimiento y sabiduría. En la vida empresarial, es común acumular datos sobre transacciones y operaciones diarias. En el ámbito del turismo, el enfoque se amplía aún más al aprovechar el big data en tiempo real, que proporciona información valiosa sobre los viajeros, sus trayectos, preferencias y prioridades. Este vasto conjunto de datos ofrece amplias oportunidades para optimizar las operaciones de viaje, personalizar las ofertas, mejorar la prestación de servicios y abrir nuevos canales de negocio. En este capítulo, se explorarán los métodos y herramientas disponibles para aprovechar al máximo los datos en el emprendimiento turístico. Y se presentará una ruta para convertir los datos en información que pueda ser utilizada para impulsar el éxito en el mundo del turismo.
 
+Cada vez más, y con mayor frecuencia, se escucha el concepto de Big Data en la vida empresarial, y antes de comenzar con el tópico de este capítulo, será importante recordar que, la recabación de datos ha exisitido desde hace décadas, pero lo que la tecnología y las herramientas digitales están provocando en estos momentos como factor diferencial, es la capacidad de procesar grandes volúmenes de datos variados a una altísima velocidad, eso es Big Data. Erroneamente, algunos emprendedores entienden que lo que tienen que hacer ahora es comenzar a capturar datos e información sobre todos los procesos y sistemas que surjan en su proyecto, pero si estos no están automatizados para autogenerarse, comenzar a hacer esto, sin una planeación adeuada orientada a los objetivos estratégiocs y funcionales del proyecto, podrá generar mucha frustración en el emprendedor. 
 
-
-******Requerimientos técnicos:
+******Requerimientos técnico
 
 Conocimientos en programación: Es fundamental tener habilidades en lenguajes de programación como Python, Java o R, para desarrollar scripts y programas que puedan interactuar con la API de Google Maps, realizar web scraping u otras tareas de extracción y procesamiento de datos.
 Conocimientos en bases de datos: Debes tener experiencia en bases de datos para almacenar y gestionar los datos extraídos de los comentarios de los clientes. Es recomendable familiarizarse con tecnologías como MySQL, MongoDB o PostgreSQL.
