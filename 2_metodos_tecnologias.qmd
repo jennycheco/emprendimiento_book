@@ -2,11 +2,11 @@
 Autora: Ana Gabriela Echeverría Solís
 
 ## Objetivos del capítulo
-Orientar al emprendedor en el ámbito turístico sobre los métodos aplicables a la toma de decisiones basada en datos, proporcionando una descripción detallada y pasos específicos para lograrlo, desde la recopilación de datos hasta la aplicación práctica.
+Orientar al emprendedor en el ámbito turístico sobre los métodos aplicables a la toma de decisiones basada en datos, proporcionando una descripción detallada y pasos específicos para lograrlo, así como, la tecnología necesaria desde la recopilación de datos, hasta la aplicación práctica.
 
 ## Introducción al capítulo
 
-Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006). 
+>> Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006). 
 
 Esta frase resalta la importancia de ir más allá de la simple recopilación de datos y aprovecharlos de manera efectiva para obtener conocimiento y sabiduría. En la vida empresarial, es común acumular datos sobre transacciones y operaciones diarias. En el ámbito del turismo, el enfoque se amplía aún más al aprovechar el big data en tiempo real, que proporciona información valiosa sobre los viajeros, sus trayectos, preferencias y prioridades. Este vasto conjunto de datos ofrece amplias oportunidades para optimizar las operaciones de viaje, personalizar las ofertas, mejorar la prestación de servicios y abrir nuevos canales de negocio. En este capítulo, se explorarán los métodos y herramientas disponibles para aprovechar al máximo los datos en el emprendimiento turístico. Y se presentará una ruta para convertir los datos en información que pueda ser utilizada para impulsar el éxito en el mundo del turismo.
 
