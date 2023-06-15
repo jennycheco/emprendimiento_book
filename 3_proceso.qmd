@@ -1,10 +1,14 @@
-# Proceso Emprendedor
+**# El proceso emprendedor**
+================================================================================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat.
+**## Conceptualización**
+________________________________________________________________________________
 
-## Titular 
+El emprendimiento es una fuerza que ha moldeado la sociedad a lo largo de la historia, sin embargo, las personas que llegan con ideas de emprendimiento son inferiores al 5% (Valencia et al., 2018), de acuerdo con datos obtenidos por parte del GEM, o Global Entrepeneurship Monitor. Esto puede ser influenciado por varios factores, como: el proceso de formación, o nivel educativo del emprendedor; la sostenibilidad económica, puesto que contar con un colchón de seguridad; las razones culturales y humanas, como las creencias, el sistema de apoyo familiar, la sociedad, etc.
 
-Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi. 
+**### Global Entrepeneurship Monitor (GEM)**
+
+Este es un observatorio de la actividad emprendedora, que estudia y analiza la creación de empresas y relación de este proceso con el crecimiento económico. El GEM es básicamente un proyecto de investigación que otorga un instrumento de comparación sistemática de las características del proceso de creación de empresas en diferentes países. El GEM es un proyecto que cuenta con la participación de 115 países y el centro de su estudio es el emprendimiento, llevándolo a cabo recogiendo de datos, regularmente, por medio de encuestas (Valencia et al., 2018).
 
 ### Titular
 
