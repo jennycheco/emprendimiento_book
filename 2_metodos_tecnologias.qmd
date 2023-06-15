@@ -1,10 +1,10 @@
-# Métodos y Tecnologías
+# 1. Métodos y Tecnologías
 Autora: Ana Gabriela Echeverría Solís
 
-## Objetivos del capítulo
+## 1.1 Objetivos del capítulo
 Orientar al emprendedor en el ámbito turístico sobre los métodos aplicables a la toma de decisiones basada en datos, proporcionando una descripción detallada y pasos específicos para lograrlo, así como, la tecnología necesaria desde la recopilación de datos, hasta la aplicación práctica.
 
-## Introducción al capítulo
+## 1.2 Introducción al capítulo
 
 >> Los datos no son información, la información no es conocimiento, el conocimiento no es comprensión, la comprensión no es sabiduría", Cliffor Paul Stoll, astrofísico estadounidense (2006). 
 
@@ -18,85 +18,21 @@ Asi que, antes de inciar con una estrategia Big Data, es importante estar al tan
 La evidencia demuestra que los casos de éxito vienen acompañados de, a) un liderazgo capaz de definir los objetivos, desarrollar e implementar las estrategias, métodos y tecnologías que la organización requiere; b) una cultura organizacional digitalizada orientada a la recabación de datos y a la toma de decisiones basada en ellos; y c) una infraestructura tecnológica adecuada a las necesidades del proyecto, que permita la escalabilidad, interoperabilidad, accesibilidad, almacenamiento y seguridad de la información.
 
 
-## Métodos
+## 1.3 Por dónde comenzar un proyecto de emprendimiento turístico o la modificación de una empresa turística en curso, hacia una cultura orientada a la toma de decisiones basada en datos. 
 
-Los métodos le servirán al emprendedor de guía para mantener el foco orientado a la consecución de los objetivos de su empresa y  con esto minimizar las consecuencias que,  en ocasiones no sólo se reducen a perdidas económicas, sino también a la frustración del emprendedor. 
+### 1.3.1 Cinco pasos para fomentar la adopción de big data en los proyectos de emprendimiento turístico, basados en el análisis realizado por IBM de las conclusiones del estudio "Big Data @ Wirk Study".
 
-Seguramente, en varias ocasiones has escuchado que estamos en el mundo de las especializaciones, y sin profundizar en la afirmación, lo cierto es que cuando uno decide emprender no hay que perder de vista que, generalmente, se requiere de la participación de especialistas en otros campos, así que, conocer de manera general la forma en la que otros especialistas interpretan los requerimientos del emprendedor, facilitará la comunicación y por lo tanto optimziará el tiempo. Entenderás lo que comento si has visto a un emprendedor con formación en el área de finanzas solicitándole algo a un creativo de marketing.
-
-A continuación se presentan algunos métodos que le servirán al emprendedor para introducirse en el mundo de la toma de decisiones a partir del análisis del Big Data; y dependiendo de la fase, o momento, en el se encuentre la idea y de los objetivos que se persigan, podrá seleccionar por cuál incorporar. . 
-
-
-
-### ¿Por dónde comienzar?
-Propuestas y conclusión.
-Resulta pertinente tener en cuenta el origen del Big Data, surge de la evolución de las redes de datos a través de internet. "Hay que visualizarlo como muchas bases de datos de fuentes y orígenes diferentes que, hasta el desarrollo de las interconexiones a través de internet, funcionaban de manera aislada y que a partir del momento en que es posible trabajar con todos esos datos simultáneamente se convierten en una especie de gran base de datos con tipologías y formatos de datos diferentes". Variedad, volúmen y velocidad, conocidas como "las tres V", son las características que, invariablemente, se conjugan cuando nos referimos a Big Data. (NO TENGO FUENTE DE ESTO)
-
-¿Qué hay del Small Data?
-Teniendo en cuenta la arquitectura o imagen global de a dónde quieres que tu proyecto llegue, optimizarás los recursos necesarios desarrollando, en la etapa de planeación, los cimientos indispensables que soportarán la estructura del proyecto y que te permitirán discernir entre las partes medulares de la estructura y las no medulares. 
-
-Así que comencemos con la arquitectura para el Small Data. 
-
-Aquí un método para cimientos de "las 3 V"
+** 1. Dedicar los esfuerzos iniciales a resultados centrados en el cliente. ** Es esencial que las empresas turísticas enfoquen sus esfuerzos de big data en áreas que generen el máximo valor para el negocio. Esto implica comenzar por analizar a los clientes para brindarles un mejor servicio al comprender sus necesidades y anticiparse a sus comportamientos futuros. La digitalización masiva ha cambiado el equilibrio de poder entre los individuos y las instituciones, por lo que las empresas deben enfocarse en conocer a sus clientes como individuos y emplear nuevas tecnologías y análisis avanzado para comprender mejor sus interacciones y preferencias. Sin embargo, para cultivar relaciones valiosas, las empresas deben conectarse con los clientes de formas que ellos perciban como valiosas, ya sea a través de interacciones más oportunas, informadas o relevantes, o mejorando las operaciones subyacentes para mejorar la experiencia general.
+** 2. Desarrollar un proyecto de big data para toda la empresa. ** Esto es esencial para alinear las necesidades de los usuarios de negocio con la implementación de TI y establecer una visión, estrategia y requisitos claros. 
+** 3. Comenzar con los datos existentes para lograr resultados a corto plazo. ** El lugar más lógico (y rentable) para comenzar a buscar nuevos conocimientos es dentro de la empresa. Para los proyectos que aún no han iniciado, esto sería los datos publicados de fuentes oficiales dentro del área o territorio en el que se pretende incursionar. Buscar internamente, le permitirá al emprendedor una visión mejorada de los requerimientos en cuanto a la estructura de los datos, software, habilidades, que más adelante le permitirán gestionar mayores volúmenes y variedades de datos. 
+** 4. Desarrollar funcionalidades analíticas sobre la base de priopridades de negocio. ** Una prioridad para el emprendedor turístico será fortalecer sus habilidades analíticas, funcionales y de TI. De igual importancia, centrar la atención en el desarrollo profesional del equipo y el avance de la trayectoria de los analistas internos, que se familiaricen con los retos y procesos del proyecto o negocio.
+** 5. Diseñar la empresa sobre la base de resultados cuantificables. ** Las soluciones de big data más eficaces identifican primero los requisitos del proyecto o negocio y, después, adaptan la infraestructura, las fuentes de datos y el análisis cuantitativo.
 
 
+### 1.3.2 Cuatro fases a las que se enfrenta un emprendedor durante la  adopción de big data. (IBM - Oxford University, 2012)
 
-### Desde la perspectiva del emprendedurismo
-* Plan de negocios
- Investigación de mercado
-* Detectar oportunidades y amenazas: Análisis externo
-* Detectar fortalezas y debildiades: Análisis interno
-* Benchmarking: mejores prácticas
-* Tendencias y tecnologías emergentes
-* La innovación como ventaja competitiva
-### Desde la perspectiva del turismo
-### Método para emprendimiento en turismo y datos.
-
-## Tecnologías
-
-TIC -> Definición y cómo ayudan en la gestión.
-Plataformas de reserva, ventas y gestión
-Herramientas de márketing digigal
-IoT / Wearables (QR dinámico, chips NFC, Beacon, Smart rooms)
-CRM Turísticos
-Web 3.0
-Entornos visuales /virtuales / Modelado 2D / 3D / Metaverso
-Soluciones HW / SW
-Proveedores de datos
-Seguridad / Blockchain / Control de aforos
-GIS 
-Cartelera inteligente / Tótems / Señalización turística
-Chatbots / procesamiento del lenguaje natural
-Desarrollo de Apps
-Drones
-Gestión eficiente de recursos: agua / energía / residuos / calidad del aire
-Movilidad / Transporte
-Plataformas de comunicación / Formación / Webinars
-Sanidad
-Sensorización
-Sistemas de analítica de datos (Big data / BI)
-
-******Requerimientos técnico
-
-Conocimientos en programación: Es fundamental tener habilidades en lenguajes de programación como Python, Java o R, para desarrollar scripts y programas que puedan interactuar con la API de Google Maps, realizar web scraping u otras tareas de extracción y procesamiento de datos.
-Conocimientos en bases de datos: Debes tener experiencia en bases de datos para almacenar y gestionar los datos extraídos de los comentarios de los clientes. Es recomendable familiarizarse con tecnologías como MySQL, MongoDB o PostgreSQL.
-Conocimientos en Big Data: Es necesario comprender los conceptos y técnicas relacionados con el procesamiento y análisis de grandes volúmenes de datos. Esto incluye el uso de herramientas y tecnologías como Hadoop, Spark, Apache Kafka y sistemas de almacenamiento distribuido.
-Experiencia en análisis de datos: Debes tener habilidades en el análisis de datos, incluyendo técnicas de minería de texto y análisis de sentimiento. Esto implica conocimientos en estadística, aprendizaje automático (machine learning) y visualización de datos.
-Competencias humanas:
-Curiosidad y capacidad de aprendizaje: Dado que el campo de Big Data está en constante evolución, es importante tener una actitud de aprendizaje continuo y estar dispuesto a explorar nuevas tecnologías y técnicas.
-Pensamiento analítico: Debes tener habilidades para analizar y comprender los datos extraídos de los comentarios de los clientes, identificar patrones, tendencias y obtener información significativa.
-Capacidad de resolución de problemas: En el procesamiento y análisis de grandes volúmenes de datos, pueden surgir desafíos técnicos y obstáculos. Es importante contar con habilidades para resolver problemas de manera eficiente y efectiva.
-Conocimiento del dominio: Es beneficioso tener conocimientos en el campo del turismo y comprender los aspectos relevantes relacionados con la experiencia del cliente y las dinámicas del sector.
-Ética y privacidad: Es crucial tener una sólida comprensión de los aspectos éticos y legales relacionados con la recopilación y procesamiento de datos. Debes asegurarte de cumplir con las políticas y regulaciones de privacidad y protección de datos.********
-
-
-* Destacar la importancia de un buen método y selección de la tecnología adecuada al proyecto.
-* Digitalización 
-* Smart - datos del target.
-* Objetivos: Personalización | Anticipación | Corrección.
-* Control + Innovación + tecnología + Sostenibilidad + Comunidad
-
-Conceptos: Estructurados/No estructurados
-Diferencia entre automatización vs robotización. 
-La automatización de procesos ofrece fiabilidad y una excelente productividad cuando se trata de trabajar en entornos fuertemente estructurados. La robotización tiene la ventaja de contar con autonomía de decisión, permitiendo trabajar en entornos cambiantes. 
+** 1. Educar para explorar. ** El emprendedor y su equipo deberán centrarse en ampliar permanentemente sus conocimeintos, centrándose en los que les ofrecerán una ventaja competitiva. Identificar las oportunidades y retos, dentro del proyecto o negocio, que se pueden abordar mejor con un acceso oportuno a la información.
+** 2. Explorar para interactuar. ** Como requisito, el emprendedor deberá mantener su compromiso a lo largo del desarrollo de la estrategia, así como, un respaldo activo a los miembros del equipo que participen en ella. Deberán desarrollar la ruta crítica a seguir definiendo los datos, su estructura, la tecnologíay las habilidades que se requieren, a corto y a largo plazo. Establecer por dónde comenzar y cómo desarrollar el plan en consonancia con la estrategia de negocio de la empresa. 
+** 3. Interactuar para ejecutar. ** En esta fase se comienzan a comprobar los beneficios para el proyecto o negocio derivados del big data. Los éxitos se deben promover activamente. También es importante las reuniones de retroalimentación y evaluación para identificar las modificaciones y mejoras que se deben incorporar. Un consejo muy valioso en esta fase, y en la vida empresarial general, es documentar los hallazgos y las justificaciones bajo una metodología descriptiva. Esto trae múltiples beneficios, uno de ellos es la posibilidad de replicar o migrar proyectos piloto a otras áeras de la empresa que reunen requisitos similares. 
+** 4. Ejecutar: aceptar la innovación de big data. ** Documentar los resultados cuantificables de los primeros éxitos para reforzar futuras iniciativas, poner en marcha comunicaciones formales sobre big data para aumentar y fomentar la cultura empresarial orientada al dato, centrarse en la evaluación sobre la tecnología y habiliades necesarias para los retos en big data por venir.
 
