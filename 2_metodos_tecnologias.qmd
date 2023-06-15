@@ -36,3 +36,85 @@ La evidencia demuestra que los casos de éxito vienen acompañados de, a) un lid
 ** 3. Interactuar para ejecutar. ** En esta fase se comienzan a comprobar los beneficios para el proyecto o negocio derivados del big data. Los éxitos se deben promover activamente. También es importante las reuniones de retroalimentación y evaluación para identificar las modificaciones y mejoras que se deben incorporar. Un consejo muy valioso en esta fase, y en la vida empresarial general, es documentar los hallazgos y las justificaciones bajo una metodología descriptiva. Esto trae múltiples beneficios, uno de ellos es la posibilidad de replicar o migrar proyectos piloto a otras áeras de la empresa que reunen requisitos similares. 
 ** 4. Ejecutar: aceptar la innovación de big data. ** Documentar los resultados cuantificables de los primeros éxitos para reforzar futuras iniciativas, poner en marcha comunicaciones formales sobre big data para aumentar y fomentar la cultura empresarial orientada al dato, centrarse en la evaluación sobre la tecnología y habiliades necesarias para los retos en big data por venir.
 
+## 1.4 Técnicas y Tecnologías 
+
+En el contexto del emprendimiento en el ámbito de los datos, es crucial adquirir conocimientos acerca de las tecnologías principales disponibles en el mercado actual y las técnicas para realizar análisis de datos. Para los emprendedores que poseen una gran determinación pero escasas habilidades, resulta fundamental familiarizarse con las características destacadas de las tecnologías más comunes, aunque cabe destacar que existen numerosas tecnologías adicionales que evolucionan y surgen constantemente. Asimismo, es importante conocer los nombres relevantes y comenzar a explorar las técnicas de análisis, lo cual permitirá trabajar con volúmenes y variedades de datos más reducidos inicialmente, pero con el potencial de ampliar exitosamente hacia entornos más complejos en el futuro. Esta etapa inicial de familiarización sienta las bases para un progreso fructífero en el ámbito del análisis de datos.
+A continuación, se presentan algunas de ellas extraídas del documento publicado por McKinsey Global Institute, (2011) “Big data: The next frontera for innovación, competition, and productivity”. 
+
+### 1.4.1 Técnicas para la analítica Big Data utilizadas frecuentemente en la industria turística. 
+
+** Test A/B: ** Técnica mediante la que un elemento o grupo control “A” se compara con diversos elementos de prueba o grupos de prueba “B” con el fin de determinar cuál de ellos o qué tratamiento sobre los mismos supone una mejora para un determinado objetivo. * Un caso de uso muy extendido de esta técnica es para determinar qué textos, imágenes, colores o disposición de los elementos, mejoran las tasas de conversión en una página web. *
+
+** Reglas de asociación (Association rule learning): ** Permiten descubrir relaciones relevantes o reglas de asociación entre variables de datos. Se basan en una gran variedad de algoritmos que generan y prueban posibles reglas. Una de sus aplicaciones es para el análisis de qué productos se compran con frecuencia juntos. * Un ejemplo de esto sucede al momento de reservar una un boleto de avión y los servicios complementarios como traslados, hospedaje, seguros, entre otros. *
+
+** Clasificación: ** Utilizado en Data Mining. Conjunto de técnicas para identificar la categoría a la que pertenece un nuevo conjunto de datos basándose en clasificaciones realizadas con anterioridad. Estas técnicas se denominan de aprendizaje supervisado porque parten de un conjunto de datos de entrenamiento con conjuntos de datos ya clasificados. * Se utilizan por ejemplo en los sistemas de recomendación para ayudar al usuario a planificar su viaje o lo que va a hacer en una ciudad. Otro caso de uso muy frecuente es la predicción del comportamiento del cliente en las decisiones de compra. *
+
+** Análisis de grupos (clustering / cluster analysis): ** Utilizado en Data Mining. Método estadístico para la clasificación de objetos que se basa en dividir un grupo de elementos en grupos más pequeños de objetos similares, cuyas características de similitud no se conocen de antemano. * Un ejemplo de utilización del clustering es la segmentación de consumidores en grupos análogos para realización de campañas de marketing concretas. *
+
+** Crowdsourcing: ** Técnica para recolectar datos de un gran grupo de personas o comunidad a través de una invitación a participar, generalmente de una red empresarial o social. * Algunos hoteles han utilizado esta técnica para involucrar a la comunidad en la planeación o diseño de servicios. * 
+
+** Fusión e integración de datos: ** Conjunto de técnicas que integran y analizan los datos de múltiples fuentes con el fin de establecer planteamientos que sean más eficientes y potencialmente más precisos que si se estableciesen mediante el análisis de una única fuente de datos. * La geolocalización de un dispositivo sólo indica dónde está pero si se combina con un mapa posibilita conocer su ubicación. La información de las redes sociales, analizada por un lenguaje de procesamiento natural, puede ser combinada en tiempo real con los horarios de venta, y así determinar qué efecto tienen las campañas de marketing en el comportamiento de compra y en sus emociones. *
+
+** Data mining: ** Combina métodos estadísticos y de aprendizaje automático para extraer patrones de grandes conjuntos de datos. Estas técnicas incluyen reglas de asociación, clustering, clasificación y regresión. * Se aplica por ejemplo para determinar los segmentos de cliente con más probabilidad de responder a una oferta, identificar las características de los empleados más exitosos o qué patrones se repiten en el comportamiento de los clientes que compran con mayor frecuencia cierto tour o reservan cierto tipo de habitaciones. *
+
+** Algoritmos genéticos: ** Utilizados para la optimización e inspirados en el proceso de selección natural. Estos algoritmos son muy adecuados para la solución de problemas no lineales. * Ejemplos de aplicaciones incluyen la mejora de la planificación de tareas en la fabricación, la optimización del rendimiento de una cartera de inversiones o la resolución del problema del viajero. *
+
+** Aprendizaje automático o Machine learning: ** Especialidad de la inteligencia artificial que se ocupa del diseño y desarrollo de algoritmos que permiten a los ordenadores aplicar “inteligencia” a partir de datos empíricos. * El objetivo principal es aprender a reconocer de forma automática patrones complejos y tomar decisiones inteligentes. * El análisis de sentimiento de los textos para clasificarlos en positivos, negativos o neutros se realiza mediante técnicas de aprendizaje automático. 
+
+** Lenguaje de procesamiento natural (NLP): ** Conjunto de técnicas de inteligencia artificial y lingüística para analizar el lenguaje humano. * Una de sus aplicaciones más extendidas es el los motores de búsqueda donde según se está escribiendo se citó completa la palabra o se recomienda la palabra siguiente, basándose en búsquedas anteriores y en secuencias de palabras que aparecen juntas. *
+
+** Redes neuronales: ** Son modelos computacionales, inspirados en la estructura y funcionamiento de las redes neuronales biológicas con el objetivo de encontrar patrones en los datos. * Se utilizan para la identificación de clientes de alto valor que están en riesgo de causar baja o para detectar reclamaciones de seguros fraudulentas. *
+
+** Análisis de redes: ** Conjunto de técnicas para caracterizar las relaciones entre nodos en un gráfico o una red. * Muy utilizado en el análisis de redes sociales para determinar las concesiones entre los individuos de una comunidad, cómo viaja la información, o quién tiene mayor influencia sobre quién. También  para identificar a los actores clave de opinión dentro del mercado meta o para identificar cuellos de botella dentro de los flujos de información. *
+
+** Optimización: ** Técnicas numéricas utilizadas para rediseñar sistemas y procesos complejos que mejoren sus cometidos de acuerdo a una o más medidas objetivas como pueden ser el coste, la velocidad o la fiabilidad. * Ejemplos de aplicaciones incluyen la mejora de proceso operativos tales como la programación, direccionamiento o distribución en plantas. *
+
+** Modelos predictivos: ** Técnicas mediante las que se crea o elige un modelo matemático para predecir la probabilidad de un resultado. * Un ejemplo de aplicación es la predicción con antelación de la entrada de turistas extranjeros y las pernoctaciones previstas. * La técnica de regresión es un ejemplo de este modelo. 
+
+** Regresiones: ** Utilizado en Data Mining. Modelos estadísticos para determinar cómo el valor de una variable dependiente cambia cuando se modifican una op más variables independientes. A menudo se utilizan para el pronóstico o la predicción. * Se pueden utilizar para la previsión de volúmenes de ventas en base a diferentes variables económicas y mercados o para la determinación de los parámetros de fabricación que más influyen en la satisfacción del cliente. *
+
+** Análisis de sentimiento: ** Aplicación de lenguajes de procesamiento natural (NLPs por sus siglas en inglés) y otras técnicas analíticas para identificar y extraer información subjetiva de comentarios y textos. Los aspectos clave de estos análisis incluyen la identificación de las características, aspectos, o productos sobre los que se está expresando un sentimiento, y la determinación del tipo de sentimiento (positivo, negativo o neutro) y el grado y la fuerza del sentimiento. * Un ejemplo de utilización muy extendido son las herramientas de monitorización de blogs, páginas web y redes sociales para determinar cómo los clientes y grupos de interés reaccionan a sus acciones, opinan sobre sus productos. *
+
+** Análisis espaciales: ** Modelos que analizan las propiedades topológicas, geométricas, o geográficas codificadas en un conjunto de datos. Estos datos suelen ser generados por sistemas de información geográfica (GIS por sus siglas en inglés) que proporcionan información de ubicación. * Se usan para determinar la predisposición del consumidor a comprar un producto en función de su ubicación, o para la simulación de cómo incrementar la eficiencia de cada cadena de producción ubicada en diferentes localizaciones. *
+
+** Simulación: ** Consiste en la modelización del comportamiento de sistemas complejos, a menudo utilizados para la previsión, predicción y planificación de escenarios. Existen algoritmos que ejecutan miles de e simulaciones basadas en diferentes supuestos con muestras de datos aleatorias para la obtención de histogramas con las distribuciones probabilísticas de los resultados. * Un caso de uso es la evaluación del cumplimiento de los objetivos financieros teniendo en cuenta las incertidumbres sobre el éxito de diversas iniciativas. *
+
+** Análisis de series temporales: ** Conjunto de técnicas estadísticas y de procesamiento de señales para el análisis de secuencias de datos en momentos de te tiempo correlativos para la extracción de patrones y características significativas en los datos. * Se utilizan por ejemplo para encontrar patrones que pretenden a la ocurrencia de un territorio. *
+
+** Visualization: ** Técnicas utilizadas para crear imágenes, diagramas o animaciones, para comunicar, entender y mejorar el resultado del análisis Big Data.
+
+
+
+### 1.4.2 Tecnologías
+
+** Big Table, Big Querry: ** Sistema de gestión de base de datos distribuidos y propietario, creado por Google. Inspiración para HBase. 
+
+** Business intelligence (BI): Aplicación de software diseñado para elaborar reportes, analizar y presentar los datos. Las herramientas BI son utilizadas frecuentemente para leer datos que han sido previamente almacenados en Datas Warehouse. También son utilizadas para crear reportes periódicos o para mostrar cuadros de mando en tiempo real. Ejemplos de estas herramientas son: Power BI, Locker, Tablou, que utilizan la tecnología de visualización para presentar la información de manera atractiva utilizando gráficas tipo (tag cloud, clustegram, histogramas, gráficas espaciales, entre otros)
+
+** Cassandra: ** Sistema de gestión de base de datos open source diseñado para manejar enormes cantidades de datos en un sistema distribuido. Este sistema fue desarrollado originalmente por Facebook y ahora está gestionado como un proyecto de la Apache Software Foundation. 
+
+** Cloud computing: ** Modelo tecnológico en el que se proporciona un servicio para el acceso bajo demanda a un conjunto de recuross informáticos compartidos de forma flexible e instantánea. 
+
+** Data mart: ** Tipo de Data Warehouse, utilizado para proveer datos a los usuarios a través de las herramientas BI.
+
+** Dyanmo: ** Sistema de almacenamiento de datos desarrollado por Amazon.
+
+** ETL, extract, transform and load / extraer, transformar, cargar: ** Herramientas utilizadas para extraer datos de fuentes externas, transformarlas para que cumplan con los requerimientos y cargarlas en una base de datos o en un Data Warehouse. 
+
+** Sistemas de distribución / Distributed System: ** Están constituidos por varios equipos que se comunican en red y que son utilizados para resolver conjuntamente un problema computacional. El problema se divide en múltiples tareas, que se asignan a uno o más ordenadores para ser resueltas en paralelo. El bejeficio de los sistemas distribuidos es que ofrecen un mayor rendimiento a un coste menor, mayor fiabilidad y más escalabildiad.
+
+** Hadoop: ** Software open sonríe para el procesamiento de grandes conjuntos de datos en un sistema distribuido. Su desarrollo fue inspirado por el Sistema de Archivo de Google y Google MapReduce. Originalmente fue desarrollado en Yahoo! Y ahora está gestionado como un proyecto de la Apache Software Foundation. 
+
+** HBase: ** Sistema de base de datos no relacional, distribuido y open sobre, que se basa en el sistema Big Table de Google. Fue desarrollado originalmente por Powerset y ahora se gestiona como un proyecto de la fundación Apache Software como parte de la Hadoop.
+
+** MapReduce: ** Modelo de programación utilizado por Google, para procesar enormes conjuntos de datos que se emplea para la resolución de algunos algoritmos susceptibles de ser párale Liza les y procesados en sistemas distribuidos. Implementado en Hadoop.
+
+** Mashup: ** Aplicación que utiliza y combina los datos de una o más fuentes para crear nuevos servicios. 
+
+** Metadata: ** Datos que describen el contenido o el contexto de archivos de datos. 
+
+** MongoDB: ** Sistema de gestión de base de datos open soul e diseñado para trabajar con datos no estructurados, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.
+
+** R: ** Lenguaje y entorno de programación open soul e para el análisis estadístico y gráfico. Se ha convertido en un estándar entre los estadísticos para el desarrollo de software estadístico y es ampliamente utilizado para análisis de datos. 
+
+** Procesamiento de eventos complejos: ** Tecnología diseñada para detectar y responder a eventos en tiempo real que indican situaciones que impactan sobre los negocios. Se utilizan para detección defraude, sistemas financieros, servicios basados en la localización. 
