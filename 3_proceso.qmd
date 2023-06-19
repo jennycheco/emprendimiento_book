@@ -59,8 +59,8 @@ Fuente: Kantis et. Al (2004)
 
 Los factores más importantes para los emprendedores de medianas y pequeñas empresas permite conocer que la motivación personal y el deseo de superación es el motor principal para la creación de nuevos negocios. 
 
-**## Primeras etapas del proceso emprendedor **
-==============================================================================
+**## Etapas del proceso emprendedor **
+________________________________________________________________________
 
 El GEM clasifica a los emprendedores tomando en cuenta la etapa en que se ubican sus acciones (Mancilla et al., 2016):
 
@@ -68,4 +68,9 @@ El GEM clasifica a los emprendedores tomando en cuenta la etapa en que se ubican
 •	Empresario novicio: la operaciones de la empresa iniciaron hace un año o menos.
 •	Emprendedor junior: ha iniciado su empresa hasta 3,5 años antes de la encuesta hecha por GEM.
 •	Emprendedor consolidado: el establecimiento de las operaciones de la empresa es mayor a 3,5 años.
+
+**## Determinantes del emprendimiento**
+_________________________________________________________________________
+
+De acuerdo con Mancilla et al (2016), el género o sexo del emprendedor es un factor determinante, puesto que las mujeres participan menos en la creación de nuevas empresas, en comparación con los hombres. La educación formal y la formación también define si el individuo es propenso a emprender. La edad es un determinante que tiene dos variantes: si el emprendedor es joven, es probable que cree una empresa para cubrir sus necesidades de éxito; en cambio, si es de una edad más madura, lo hace con un capital acumulado para emprender. La autoconfianza y poseer habilidades empresariales es otro factor determinante, ya que, cuando mas se confía en estas habilidades, la probabilidad de crear una empresa es mayor. Los modelos de referencia o "role models" puede influenciar en el emprendimiento; poseer un ejemplo positivo como representación de lo que se puede lograr, causa un impacto, también positivo, en la posibilidad de iniciar un nuevo negocio. El grado en que el país donde se desea emprender percibe el emprendimiento y la tolerancia a fracasar, son determinantes en el emprendimiento individual.
 
