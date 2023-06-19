@@ -6,14 +6,66 @@ ________________________________________________________________________________
 
 El emprendimiento es una fuerza que ha moldeado la sociedad a lo largo de la historia, sin embargo, las personas que llegan con ideas de emprendimiento son inferiores al 5% (Valencia et al., 2018), de acuerdo con datos obtenidos por parte del GEM, o Global Entrepeneurship Monitor. Esto puede ser influenciado por varios factores, como: el proceso de formación, o nivel educativo del emprendedor; la sostenibilidad económica, puesto que contar con un colchón de seguridad; las razones culturales y humanas, como las creencias, el sistema de apoyo familiar, la sociedad, etc.
 
-**### Global Entrepeneurship Monitor (GEM)**
+**### Global Entrepreneurship Monitor (GEM)**
 
 Este es un observatorio de la actividad emprendedora, que estudia y analiza la creación de empresas y relación de este proceso con el crecimiento económico. El GEM es básicamente un proyecto de investigación que otorga un instrumento de comparación sistemática de las características del proceso de creación de empresas en diferentes países. El GEM es un proyecto que cuenta con la participación de 115 países y el centro de su estudio es el emprendimiento, llevándolo a cabo recogiendo de datos, regularmente, por medio de encuestas (Valencia et al., 2018).
+
+**## Teorías sobre el la motivación del emprendimiento ** Valencia et. Al (2019)
+
+### Teoría del Comportamiento Planificado (TPB, Theory of Planned Behavior)
+
+Esta teoría, elaborada por Icek Azjen (1985,1987) establece que todos los comportamientos son planificados y razonados, es decir, en control. Se refiere a los factores motivacionales que influyen en el comportamiento, donde se pueden definir tres puntos importantes:
+-Valoración favorable o no hacia el comportamiento.
+-Percepción de la presión social para realizar o no la conducta.
+-Facilidad o dificultad para realizar la conducta.
+
+### Teoría del Evento Empresarial
+
+Fue presentada por Albert Shapero (1985) y define el evento empresarial como el proceso de crear la empresa; esto se produce luego de dos decisiones: de iniciar una compañía, y de un cambio de vida, esta última se genera por una desestabilización , ya sea positiva o negativa.
+
 
 **## Motivaciones **
 
 De acuerdo con una investigación desarrollada en 13 países de América Latina, Asia y Europa, se definieron las siguientes razones por las que un sujeto decide emprender, aunque por diferencias culturales, cada elemento varía su posición en cuanto a importancia:
 
-
+<div>
+<p style = 'text-align:center;'>
+<img src="http://www.scielo.org.co/img/revistas/unem/v21n36//0124-4639-unem-21-36-149-gt1.jpg ">
+</p>
+</div>
 
 Fuente: Kantis et. Al (2004)
+
+Donde el número ordinal fue asignado por el lugar en el ranking que ha recibido la motivación , y, entre paréntesis, el porcentaje de emprendedores que le ha dado esta calificación.
+
+Según Valencia et. Al (2019), las motivaciones se pueden clasificar en seis categorías:
+
+•	De tipo personal: aquí influyen factores de bienestar general, que incluye aspectos económicos, alcanzar aspiraciones, deseo de superación, libertad al momento de tomar decisiones y el compromiso de asumir las consecuencias de estas decisiones.
+•	Relacionadas con el conocimiento
+:  estas motivaciones hacen referencia a las capacidades y aptitudes que el potencial emprendedor tiene sobre cierto asunto, obtenidas a través de conocimiento técnico, investigación o experiencia laboral. 
+•	Las oportunidades: que pueden convertirse en un modelo de negocio.
+•	Relacionadas con la disponibilidad de recursos: como los financieros, la red relacional y los recursos para la producción (técnicos y logísticos).
+•	Experiencia laboral: conocimiento del sector donde se creará el negocio.
+•	El entorno social: aquí se incluyen los amigos, la familia, la influencia de las personas a las que se admira y el ejemplo de las empresas exitosas que han sido creación de un emprendedor. 
+
+<div>
+<p style = 'text-align:center;'>
+<img src=" http://www.scielo.org.co/img/revistas/unem/v21n36//0124-4639-unem-21-36-149-gt4.jpg
+">
+</p>
+</div>
+
+Fuente: Kantis et. Al (2004)
+
+Los factores más importantes para los emprendedores de medianas y pequeñas empresas permite conocer que la motivación personal y el deseo de superación es el motor principal para la creación de nuevos negocios. 
+
+**## Primeras etapas del proceso emprendedor **
+==============================================================================
+
+El GEM clasifica a los emprendedores tomando en cuenta la etapa en que se ubican sus acciones (Mancilla et al., 2016):
+
+•	El emprendedor naciente: en proceso de creación de su empresa, pero aún no empieza las operaciones.
+•	Empresario novicio: la operaciones de la empresa iniciaron hace un año o menos.
+•	Emprendedor junior: ha iniciado su empresa hasta 3,5 años antes de la encuesta hecha por GEM.
+•	Emprendedor consolidado: el establecimiento de las operaciones de la empresa es mayor a 3,5 años.
+
