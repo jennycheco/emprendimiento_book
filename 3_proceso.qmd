@@ -1,6 +1,16 @@
 **# El proceso emprendedor**
 ================================================================================
 
+## Introducción
+___________________________________________________________________________
+
+El proceso emprendedor es la descripción de un camino donde aprovechar las oportunidades es el inicio. Los emprendedores juegan un papel muy importante, puesto que estos generan empleos para sus comunidades, lo que promueve el crecimiento económico general. Para hablar del proceso emprendedor, debemos mencionar sus elementos fundamentales, características, las habilidades y estrategias que los emprendedores usan para convertir sus ideas en una realidad.
+
+Es primordial saber identificar las oportunidades, y, un emprendedor detecta esas necesidades sin satisfacer, para así generar las ideas innovadadoras que abordarán estas necesidades. Luego, el emprendedor utiliza sus conocimientos para comprobar la viabilidad de estas ideas, y el potencial que presenta llevar a cabo sus propuestas.
+
+Concebir la idea es solo el inicio, pues se debe definir la búsqueda de recursos financieros, tecnológicos y obtener las habilidades necesarias para crear un negocio fructífero. Las fuentes de financiacón, los posibles inversionistas, las estrategias, el liderazgo y la correcta gestión aportarán, de igual manera a este fin.
+
+
 **## Conceptualización**
 ________________________________________________________________________________
 
@@ -187,7 +197,13 @@ Las mujeres emprendedoras tienen menos fuentes de financiación y menos capital 
 En España, las emprendedoras cuentan con un programa de microcréditos creado para ellas en 2001. Este proyecto ha sido llevado a cabo por la Dirección General de Política de la PYME, en conjunto con el Instituto de la Mujer. La función de este programa es financiar los proyectos de emprendimiento, al igual que brindar asistencia técnica para llevarlos a cabo. Sin embargo, la falta de conocimiento sobre este instrumento, ha reducido las oportunidades de muchas emprendedoras (hasta el 2009). Las emprendedoras que ya conocen del programa, es porque son parte de un círculo de emprendedores, donde comparten este tipo de informaciones. De la muestra tomada por el GEM para la investigación llevada a cabo, solo el 0,9% de las emprendedoras había usado el programa de microcréditos, y solo el 2,9% de las personas que lo conocen lo han usado. (RUIZ NAVARRO et al., 2012)
 
 
-# Referencias 
+## Conclusión
+
+El proceso de emprendimiento lleva un profundo análisis del mercado para identificar oportunidades y necesidades por cubrir. El emprendedor realiza un arduo trabajo recopilando información e investigando los puntos relevantes para crear un producto o servicio innovador, siempre tenendo en cuenta los recursos disponibles y las limitaciones que puedan surgir durante este proceso. 
+
+El emprendimiento ha pasado por diferentes etapas de desarrollo, desde la concepción de la idea innovadora, hasta la implementación y comercialización del producto o servicio terminado. En conclusión, el proceso de empredimiento es un camino de aprendizaje y crecimiento donde se pone en práctica la creatividad, la innovación y la capacidad de adaptación para convertir una idea en un negocio exitoso. Se puede argumentar que planificación estratégica es la base del éxito de un negocio naciente.
+
+## Referencias 
 ======================================
 
 Batista-Canino, R., Bolívar-Cruz, A., & Medina-Brito, P. (2016). Emprendimiento y Gestión Empresarial: Monitorización del proceso emprendedor a través del modelo de negocio. Revista Innovar Journal, 26(61), 83-101.
