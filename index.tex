@@ -1,0 +1,1412 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Emprendimiento con Datos en Turismo},
+  pdfauthor={Francisco J. Navarro-Meneses, Editor},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Emprendimiento con Datos en Turismo}
+\author{Francisco J. Navarro-Meneses, Editor}
+\date{2023-06-12}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{prefacio}{%
+\chapter*{Prefacio}\label{prefacio}}
+\addcontentsline{toc}{chapter}{Prefacio}
+
+\markboth{Prefacio}{Prefacio}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular}{%
+\section*{Titular}\label{titular}}
+\addcontentsline{toc}{section}{Titular}
+
+\markright{Titular}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-1}{%
+\subsection*{Titular}\label{titular-1}}
+\addcontentsline{toc}{subsection}{Titular}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+This is a Quarto book.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{introducciuxf3n}{%
+\chapter*{Introducción}\label{introducciuxf3n}}
+\addcontentsline{toc}{chapter}{Introducción}
+
+\markboth{Introducción}{Introducción}
+
+\begin{itemize}
+\tightlist
+\item
+  The development of technology and the mounting use of information
+  communication technology (ICT) have an important role for the business
+  organisations and operations
+\item
+  Although the need of having a reliable ICT is apparent, there are many
+  business organisations that do not adopt this technology. For a large
+  business organisation with ample human and financial resources, the
+  adoption of ICT may not be a significant problem. However, for
+  small-sized business organisations which face resources limitations,
+  the ICT adoption becomes a problem.
+\item
+  This issue turns out to be more severe for small businesses in
+  developing countries such as Indonesia, in which its entrepreneurs
+  face education and cultural constraints (Anggadwita et al., 2015;
+  Tambunan, 2011)
+\item
+  This is not a book about studying the adoption of ICT and data by
+  entrepreneurs, but about how to help them
+\end{itemize}
+
+\hypertarget{benefits-and-types-of-data}{%
+\section*{Benefits and Types of Data}\label{benefits-and-types-of-data}}
+\addcontentsline{toc}{section}{Benefits and Types of Data}
+
+\markright{Benefits and Types of Data}
+
+\begin{itemize}
+\tightlist
+\item
+  ICT could help the business organisation to achieve a greater
+  efficiency and lower cost in their operation.
+\item
+  Impact of data on business productivity, cost, revenue, and
+  profitability (Gërguri-Rashiti et al., 2017).
+\item
+  Data and ICT to push innovation and business performance (Ramadani et
+  al., 2016).
+\item
+  From a consumer perspective, ICT, especially the internet, has an
+  impact on the way consumers purchase products and services.
+\item
+  The Internet more reliable and affordable for many customers. It is
+  now easier for the consumer to find information and vendors of a
+  product or service, not only from the local market, but also from the
+  global market.
+\item
+  Having well developed and operationalised ICT is an important factor
+  to build the competitive business advantage (Gërguri-Rashiti et al.,
+  2017).
+\end{itemize}
+
+\hypertarget{index}{%
+\subsection*{Index}\label{index}}
+\addcontentsline{toc}{subsection}{Index}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Context and Background
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Entrepreneurship and tourism
+\item
+  Entrepreneurs, data and ICT
+\item
+  Characteristics of the entrepreneurial firm
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Understanding data
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  What is data?
+\item
+  Benefits of data
+\item
+  Types of Data
+\item
+  The Data life-cycle
+\item
+  Management of data in small enterprises
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  The Entrepreneurial data-driven process
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  The classic vs data-driven entrepreneurial process
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Methods and Technologies
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Deployment methods
+\item
+  Cloud and entrepreneurs
+\item
+  Low code
+\item
+  Big data for entrepreneurs
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Data considerations for Tourism Entrepreneurs
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Ética de Datos y Emprendimiento
+\item
+  Finanzas de Datos para Emprendedores
+\item
+  Conocimiento del Cliente a través de los Datos
+\item
+  La Gobernanza de Datos en PYMEs Emprendedoras
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Starting-up a data-driven entrepreneur (Wrapping all up)
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Stages
+\item
+  Leadership styles
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  What's next
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Role of AI
+\item
+  IoT
+\item
+  Big Data and analytics
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{turismo-datos-y-emprendimiento}{%
+\chapter{Turismo, Datos y
+Emprendimiento}\label{turismo-datos-y-emprendimiento}}
+
+Autor: Cai Liang Zhou Cheng
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-2}{%
+\section{Titular}\label{titular-2}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-3}{%
+\subsection{Titular}\label{titular-3}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{muxe9todos-y-tecnologuxedas}{%
+\chapter{Métodos y Tecnologías}\label{muxe9todos-y-tecnologuxedas}}
+
+Autora: Ana Gabriela Echeverría Solís
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Intro al capítulo con los siguientes puntos: * Destacar la importancia
+  de un buen método y selección de la tecnología adecuada al proyecto. *
+  Orientadas a conocer los detalles y características del target. *
+  Personalizar los productos, servicios, experiencias. 3. Método *
+  Detectar oportunidades y amenazas: Análisis externo * Detectar
+  fortalezas y debildiades: Análisis interno * Benchmarking: mejores
+  prácticas * Tendencias y tecnologías emergentes * La innovación como
+  ventaja competitiva 4. Tecnologías y soluciones Cómo elegir la mejor
+  tecnología para solucionar los retos del proyecto * TIC
+  -\textgreater{} Definición y cómo ayudan en la gestión. * Plataformas
+  de reserva, ventas y gestión * Herramientas de márketing digigal * IoT
+  / Wearables (QR dinámico, chips NFC, Beacon, Smart rooms) * CRM
+  Turísticos * Web 3.0 * Entornos visuales /virtuales / Modelado 2D / 3D
+  / Metaverso * Soluciones HW / SW * Proveedores de datos * Seguridad /
+  Blockchain / Control de aforos * GIS * Cartelera inteligente / Tótems
+  / Señalización turística * Chatbots / procesamiento del lenguaje
+  natural * Desarrollo de Apps * Drones * Gestión eficiente de recursos:
+  agua / energía / residuos / calidad del aire * Movilidad / Transporte
+  * Plataformas de comunicación / Formación / Webinars * Sanidad *
+  Sensorización * Sistemas de analítica de datos (Big data / BI)
+\end{enumerate}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{proceso-emprendedor}{%
+\chapter{Proceso Emprendedor}\label{proceso-emprendedor}}
+
+Autora: Karen Jualiana Fernández Castillo
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-4}{%
+\section{Titular}\label{titular-4}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-5}{%
+\subsection{Titular}\label{titular-5}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{pruxe1cticas-de-gestiuxf3n}{%
+\chapter{Prácticas de Gestión}\label{pruxe1cticas-de-gestiuxf3n}}
+
+Autora: Karen Paulina Salazar Núñez
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-6}{%
+\section{Titular}\label{titular-6}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-7}{%
+\subsection{Titular}\label{titular-7}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{oportunidades}{%
+\chapter{Oportunidades}\label{oportunidades}}
+
+Autora: Jenny María Checo Vargas
+
+Temas de referencia: - a - b - c
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-8}{%
+\section{Titular}\label{titular-8}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-9}{%
+\subsection{Titular}\label{titular-9}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{uxe9tica-de-datos-y-emprendimiento}{%
+\chapter{Ética de Datos y
+Emprendimiento}\label{uxe9tica-de-datos-y-emprendimiento}}
+
+Autora: Mensia Indira Otáñez de la Rosa
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-10}{%
+\section{Titular}\label{titular-10}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-11}{%
+\subsection{Titular}\label{titular-11}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{finanzas-de-datos-para-emprendedores}{%
+\chapter{Finanzas de Datos para
+Emprendedores}\label{finanzas-de-datos-para-emprendedores}}
+
+Autora: Salomé Shirley Criollo Linaico
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-12}{%
+\section{Titular}\label{titular-12}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-13}{%
+\subsection{Titular}\label{titular-13}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{conocimiento-del-cliente-a-travuxe9s-de-los-datos}{%
+\chapter{Conocimiento del Cliente a través de los
+Datos}\label{conocimiento-del-cliente-a-travuxe9s-de-los-datos}}
+
+Autora: Claudia Reina Vargas
+
+\hypertarget{introducciuxf3n-1}{%
+\section{Introducción}\label{introducciuxf3n-1}}
+
+El sector turístico, se trata de un sector que, debido a la
+globalización y la revolución digital del sistema entre otros factores a
+destacar, se ha vuelto altamente competitivo. Por ello ha surgido la
+necesidad de formular nuevas estrategias de marketing y análisis de
+datos para la reinvención del sector en un destino en concreto. La alta
+competencia y las facilidades que tiene el turista a la hora de poder
+seleccionar el destino son claves para el crecimiento de este sector. Si
+hablamos del caso de España, según los datos del Ministerio de Industria
+Comercio y Turismo, en 2022 se superaron las cifras prepandemia por la
+Covid-19, alcanzando los 71,6 millones de turistas internacionales que
+realizaron un gasto de 87.061 millones de euros, provenientes de Reino
+Unido, Alemania y Francia principalmente. En cuanto al gasto, los datos
+arrojan un aumento del 10,5\% de media por turista frente a 2019 y las
+estancias aumentaron a una media de 7,5 días de media. Observando estas
+cifras, podemos ver que el turismo está sufriendo un gran auge, pero
+¿hasta cuándo durará esto? El aumento del coste de vida ha sido notable
+en muchas industrias, y puede, que ciertos modelos de turismo en países
+estacionalizados no sea viable en un futuro. Ante este escenario
+cambiante y de gran incertidumbre, es necesario que el sector del
+turismo desarrolle continuamente nuevos proyectos para seguir siendo una
+industria sólida, con una consolidada posición de liderazgo
+internacional y con un potencial incansable (Consejo Español de Turismo,
+2007). Muchas empresas, en sus inicios, estaban presentes únicamente en
+un mercado concreto y en una tipología concreta de turismo, pero se
+vieron obligadas a lanzarse al mercado internacional para poder
+subsistir al crecimiento de otras entidades extranjeras. Pero el propio
+consumidor ha cambiado también sus hábitos de compra y consumo de
+servicios, teniendo mayor poder de decisión y negociación que las
+propias empresas. A diario se reciben miles de estímulos que impulsan a
+tomar unas u otras decisiones de compra. La investigación de mercados
+constituye una parte fundamental para desarrollo de estrategias de
+crecimiento y mejora, pero junto con un análisis correcto se deben
+emplear otras herramientas y técnicas adecuadas. En este sentido, el uso
+de big data, la minería de datos o técnicas de Business Intelligence
+(BI) suponen una importante oportunidad para las empresas turísticas que
+quieran aumentar sus ventas tanto para el público nacional como para el
+internacional, ayudando con la innovación y el posicionamiento de los
+destinos en diferentes mercados, conocimiento de la demanda y del
+público objetivo entre otros factores.
+
+\hypertarget{fuentes-de-datos-utilizadas-en-el-sector-turuxedstico}{%
+\section{Fuentes de datos utilizadas en el sector
+turístico}\label{fuentes-de-datos-utilizadas-en-el-sector-turuxedstico}}
+
+El rápido crecimiento de las Tecnologías de la Información y la
+Comunicación (TICs) ha generado grandes transformaciones sociales y
+económicas a nivel mundial. En el sector turístico, se utilizan diversas
+técnicas de análisis de datos para obtener información valiosa que
+permita tomar decisiones estratégicas y mejorar la experiencia de los
+clientes, así como para lograr el posicionamiento de un destino. Algunas
+de estas técnicas incluyen la minería de datos, el aprendizaje
+automático, la inteligencia artificial y la segmentación de clientes,
+para cuando se tiene acceso a estas herramientas, pero tambiíen hay
+otras como los datos proporcionados por webs oficiales de Goviernos y
+Ministerios, las redes sociales (como Facebook, Twitter, Instagram o
+Tripadvisor), diferentes estudios de mercado públicos en el sector que
+deseen,etc., las cuales iremos desglosando para identificar sus ventajes
+y aportes a esta industria. Estos sitemas ofrecen la información
+necesaria a las empresas para tomar decisiones que permitan aumentar la
+capacidad productiva, impulsar la competitividad y evaluar el retorno de
+las acciones de fomento de la actividad turística. Por otra parte,
+contribuye a incrementar las prestaciones a los visitantes adaptando la
+oferta a las nuevas exigencias y necesidades. También sirve de ayuda a
+los gestores de proyectos de destinos turísticos o para la correcta
+elaboración de estrategias y planes de marketing o planes de acción.
+Otro de sus usos es para averiguar el por qué un destino atrae más a un
+determinado segmento y no por otro o los precios que pueden poner según
+los departamentos de revenue. En este capítulo, se procederá a realizar
+un desglose con mayor profundidad de cuáles son las herramientas que
+ayudan en el sector, así como las aplicaciones que tienen para la
+obtención de datos, sus diferencias y un caso práctico de una empresa
+turística que recurra a estas herramientas para un análisis correcto. El
+objetivo es poner en valor aquellas herramientas que con el paso del
+tiempo se han podido desarrollar gracias a las TICs y como su uso mejora
+y facilita las decisiones de las empresas, no solo del sector turístico,
+sino de todos los implicados en la cadena de valor de un servicio, para
+posteriormente centrarnos en como conseguir datos por fuera de estas
+herramientas.
+
+\hypertarget{smart-data}{%
+\subsection{Smart Data}\label{smart-data}}
+
+Para los emprendedores, la manera más sencilla de de otender datos sobre
+el sector para emprendedores en la industria es mediante informes y
+webs/apps y Smart Data. Este concepto se refiere a la utilización de
+datos relevantes y significativos para obtener información y
+conocimientos valiosos. Para los emprendedores en el sector turístico,
+el smart data puede ser una herramienta poderosa para comprender mejor a
+los clientes, tomar decisiones informadas y mejorar la eficiencia
+operativa. Entre estas formas de búsqueda y aplicación podemos destacar,
+por ejemplo, análisis de datos de clientes mediante informes
+demográficos proporcionados de manera gratuita por diferentes entidades.
+En el caso de España podemos destacar, el Instituto Nacional de
+Estadística (INE), DATAESTUR (Selección de los datos más relevantes del
+sector turístico), SEGITTUR (sociedad estatal española dedicada a la
+gestión de la innovación y las tecnologías turísticas), EXCELTUR, y
+muchas más. En sus webs se pueden encontrar análisis e informes del
+sector, los cuales son de uso público y están a disposición de todo el
+mundo, permitiendo así realizar análisis de referencias de viaje,
+historial de reservas, demografía, comentarios y opiniones, para
+comprender mejor a su audiencia. Por otro lado, se puede realizar un
+monitoreo de redes sociales. Las redes sociales son una fuente valiosa
+de smart data para los emprendedores turísticos. Al monitorear las
+conversaciones en las redes sociales, las ubicaciones más usadas o en
+tendencia, las fotografías de otros usuarios o de su competencia o
+realizar encuestas los emprendedores pueden obtener información en
+tiempo real sobre las opiniones de los clientes, las tendencias de
+viaje, los destinos populares y las experiencias compartidas por los
+viajeros. Esto puede ayudar a ajustar sus estrategias de marketing,
+identificar oportunidades y responder rápidamente a las necesidades y
+expectativas de los clientes. Por último, mediante el análisis de
+opiniones web. Este hecho cada vez tiene más importancia tanto para
+usuarios como para los empresarios, que buscan en ambos casos mostrar la
+realidad que hay detrás de un negocio mediante opiniones públicas, a las
+que tiene acceso todo el mundo, y las cuales se quedan guardadas en los
+sitios webs, pudiendo ir acompañadas en algunos casos de vídeos o
+fotografías. Al obtener esta información de su negocio y de sus
+competidores, los emprendedores pueden identificar áreas de mejora,
+tomar medidas correctivas y mantener la satisfacción del cliente en un
+nivel alto. Pero estas no son las únicas tecnologías o pasos que puede
+seguir un emprendedor para analizar al turista o el sector, existen como
+ya hemos mencionado tecnologías más potentes, las cuales ahorran tiempo
+y generan informes de toda la información, pudiendo conseguir una
+adaptación de estrategias, segmentaciones y ajuste de precios entre
+otros factores más rápida.
+
+\hypertarget{mineruxeda-de-datos}{%
+\subsection{Minería de Datos}\label{mineruxeda-de-datos}}
+
+En los últimos años, debido al desarrollo exponencial de la tecnología,
+se genera cada vez más información, la cual es más difícil de analizar,
+pero a su vez el acceso a ella es más sencillo. Estas grandes cantidades
+de datos disponibles online o almacenados en bases de datos, son una
+oportunidad a la hora de obtener nueva información que es potencialmente
+importante pero que aún no ha sido descubierta. Se hace referencia al
+concepto de ``Big Data'' cuando esta información, debido a su volumen y
+complejidad, no puede ser procesada o analizada utilizando procesos o
+herramientas tradicionales. Berman (2013) propone que se defina Big Data
+a partir de las tres V's: volumen, variedad y velocidad. Cuando habla de
+volumen se refiere a contar con una gran cantidad de datos. La variedad
+está dada por las diferentes formas y formatos que tienen esos datos, ya
+sea en bases de datos tradicionales, imágenes, documentos y registros
+complejos. Por último, la velocidad hace alusión a que el contenido de
+los datos cambia constantemente, ya sea a través de la generación de
+nuevos datos, de la absorción de colecciones de datos complementarias o
+de la introducción de datos previamente archivados. El análisis de esta
+información suele realizarse por personas expertas en la materia, pero
+este proceso tiene altos costes monetarios y requiere de mucho tiempo.
+Es aquí cuando entra el juego la minería de datos o data mining, ya que
+esta tecnología se sirve de estos sistemas utilizando algoritmos
+específicos para extraer patrones desde los datos, permitiendo encontrar
+patrones repetitivos que se encuentran escondidos en esos datos. Para
+ello combina la estadística, la inteligencia artificial, el aprendizaje
+automático (machine learning) y la tecnología de bases de datos.
+\includegraphics{index_files/mediabag/ebf9853f-4644-4ba6-a.pdf} Una vez
+extraída la información de la minería de datos, se puede usar para
+predicciones de comportamientos, demandas y ventajas competitivas.
+\includegraphics{index_files/mediabag/539771e1-4a7c-4164-8.pdf} En
+cuanto a su aplicación en el sector turístico podemos destacar
+diferentes posibilidades: Por un lado se utiliza para el análisis de
+datos de reservas de hoteles para identificar los patrones de reserva,
+como la antelación con la que los clientes realizan sus reservas, las
+temporadas de mayor demanda, los tipos de habitación más populares, etc.
+Al analizar los datos de reservas de hoteles, se puede determinar la
+antelación con la que los clientes realizan sus reservas. Esto permite
+identificar tendencias y patrones en cuanto al período de tiempo entre
+la fecha de reserva y la fecha de llegada. Por ejemplo, se puede
+descubrir que los viajeros de negocios tienden a reservar con menos
+antelación que los turistas de ocio. También permite identificar las
+temporadas de mayor demanda en la industria hotelera. Al analizar las
+fluctuaciones en las reservas a lo largo del tiempo, se pueden
+identificar patrones estacionales y determinar cuándo hay una mayor
+demanda de habitaciones. Esta información es esencial para establecer
+estrategias de precios y planificación de la capacidad. Otro beneficio
+sería la duración de la estancia o el canal de la reserva. En cuanto a
+la duración de la estancia, el data mining sirve como herramienta de
+elaboración de informes de conducta, diferenciación de tipologías de
+clientes y predicciones a la hora de establecer precios. Además, ayuda a
+recordar eventos que han sucedido en lugares concretos y por los cuales
+las estancias se vieron afectadas, pudiendo alargarse o acortarse, y
+sirve como base de datos para años futuros. Por otro lado, analizar los
+canales de reserva puede ayudar en el proceso de establecimiento de una
+estrategia, en la cual e puede ver que canal es el más usado, ya sea
+online mediante OTAs como Booking, Expedia, Hotelbeds, etc., recurriendo
+a los servicios de reserva directos por parte del alojamiento/servicio
+como su propia web o mediante un CRS concreto (programa de central de
+reservas u oficinas donde gestionan las mismas, ya sea mediante email o
+teléfono).
+
+\hypertarget{inteligencia-artificial-ia}{%
+\subsection{Inteligencia Artificial
+(IA)}\label{inteligencia-artificial-ia}}
+
+La inteligencia artificial (IA) es un campo de estudio y desarrollo que
+se enfoca en crear sistemas capaces de realizar tareas que normalmente
+requerirían de la inteligencia humana. La idea principal detrás de la IA
+es emular ciertos aspectos de la capacidad humana para aprender,
+razonar, comprender, planificar, tomar decisiones y resolver problemas.
+Se basa en la idea de que las máquinas pueden procesar información de
+manera similar a los seres humanos, y utilizarla para tomar decisiones o
+realizar acciones de manera autónoma. Los sistemas de IA pueden aprender
+de datos, adaptarse a nuevas situaciones y mejorar su rendimiento a lo
+largo del tiempo, sin necesidad de ser programados de forma explícita
+para cada tarea específica. Existen diferentes enfoques y técnicas
+dentro del campo de la IA. Uno de los enfoques más utilizados es el
+aprendizaje automático (machine learning), que se basa en algoritmos y
+modelos matemáticos que permiten a las máquinas aprender a través de la
+experiencia y los datos, del cual hablaremos más adelante. También
+existen otros enfoques dentro de la IA, los cuales incluyen el
+procesamiento de lenguaje natural (NLP, por sus siglas en inglés), que
+se enfoca en la comprensión y generación de lenguaje humano, la visión
+por ordenador, que permite a las máquinas analizar y comprender imágenes
+y videos, la robótica, que busca desarrollar robots capaces de
+interactuar con el entorno de manera inteligente y la planificación y
+toma de decisiones, que involucra la capacidad de los sistemas de IA
+para tomar decisiones óptimas en situaciones complejas. La IA se utiliza
+en una amplia variedad de industrias y campos, incluyendo el sector
+turístico. En el turismo, la IA ha encontrado aplicaciones en áreas como
+la atención al cliente, la personalización de ofertas, la gestión de
+destinos, el análisis de datos de viajeros, la mejora de la seguridad y
+la optimización de precios. A través de chatbots y asistentes virtuales,
+las empresas turísticas pueden brindar atención al cliente las 24 horas
+del día, los 7 días de la semana, respondiendo preguntas y ofreciendo
+recomendaciones personalizadas. Mediante el análisis de datos de los
+clientes, la IA permite a las empresas comprender mejor las preferencias
+y necesidades de los viajeros, ofreciendo ofertas y promociones más
+relevantes. En la gestión de destinos, la IA puede analizar datos de
+geolocalización y comportamiento de los turistas para mejorar la
+planificación de rutas, identificar áreas de interés y optimizar la
+experiencia del viajero. Además, la IA también se utiliza en la
+detección de fraudes y la mejora de la seguridad en el sector turístico,
+ayudando a identificar actividades sospechosas y proteger tanto a los
+turistas como a las empresas. Se utiliza también para analizar
+comentarios y reseñas de clientes en plataformas en línea. Al aplicar
+técnicas de procesamiento de lenguaje natural, la IA puede identificar
+el tono emocional de los comentarios (positivo, negativo o neutral) y
+extraer información útil sobre las experiencias de los clientes. Esto
+ayuda a los proveedores de servicios turísticos a comprender mejor las
+necesidades y expectativas de sus clientes. Por otro lado, debido al
+auge de los dispositivos móviles y las aplicaciones de viaje, que
+generan grandes cantidades de datos de geolocalización, gracias a la IA
+se puede analizar estos datos para comprender los patrones de movilidad
+de los turistas, identificar lugares de interés populares y pronosticar
+la congestión de tráfico en ciertas áreas. Esto ayuda a los proveedores
+de servicios turísticos a mejorar la planificación de rutas y optimizar
+la gestión de destinos. Por último, en cuanto al diseño de estrategias
+de marketing, la IA puede identificar patrones y segmentar a los
+clientes en grupos con características similares, esto se hace mediante
+el procesamiento de grandes cantidades de datos de clientes, como
+preferencias de viaje, comportamiento de compra, historial de reservas,
+interacciones en redes sociales, entre otros, lo que ayuda a la creación
+de estas campañas por segmentos para que tengan mayor efectividad. El
+objetivo principal de la segmentación de clientes es comprender mejor a
+los diferentes grupos de clientes y adaptar las estrategias de marketing
+y servicios para satisfacer sus necesidades de manera más efectiva. La
+segmentación de clientes se basa en la recopilación y análisis de datos
+relevantes, como datos demográficos, preferencias de viaje,
+comportamiento de compra, historial de reservas, entre otros. Estos
+datos se utilizan para identificar patrones y tendencias en el
+comportamiento de los clientes, lo que permite agruparlos en segmentos
+con características similares.
+
+La inteligencia artificial (IA) desempeña un papel importante en la
+segmentación de clientes, ya que puede procesar grandes volúmenes de
+datos y encontrar patrones y relaciones complejas de manera más
+eficiente que los métodos tradicionales. Los algoritmos de IA utilizados
+en la segmentación de clientes pueden aplicar técnicas de aprendizaje
+automático para identificar relaciones no lineales y comprender las
+preferencias y comportamientos de los clientes de manera más precisa.
+Tal y como habíamos mencionado antes, La inteligencia artificial y el
+aprendizaje automático (machine learning) están estrechamente
+relacionados y se considera que el aprendizaje automático es una subrama
+de la IA. La inteligencia artificial, por su lado, se refiere al campo
+de estudio y desarrollo de sistemas que pueden realizar tareas que
+normalmente requerirían de la inteligencia humana buscando emular
+ciertos aspectos de la inteligencia humana, mientras que el aprendizaje
+automático, por otro lado, es una técnica dentro de la IA que se basa en
+algoritmos y modelos matemáticos para permitir que las máquinas aprendan
+de datos y experiencias. El objetivo del aprendizaje automático es
+desarrollar modelos y algoritmos que puedan aprender a reconocer
+patrones, hacer predicciones, tomar decisiones y resolver problemas a
+través de la experiencia y los datos En otras palabras, el aprendizaje
+automático es una herramienta utilizada en la implementación de la
+inteligencia artificial.
+
+\hypertarget{aprendizaje-automuxe1tico}{%
+\subsection{Aprendizaje automático}\label{aprendizaje-automuxe1tico}}
+
+El aprendizaje automático, también conocido como machine learning, es
+una técnica ampliamente utilizada en el sector turístico para el
+análisis de datos y la toma de decisiones informadas, siendo una
+subdivisión de la Inteligencia Artificial que se basa en algoritmos para
+analizar conjuntos de datos masivos. Los datos se convierten en
+información, conocimiento y por último en una herramienta de sabiduría
+para realizar acciones con una base sólida. Estos algoritmos permiten a
+las máquinas aprender y mejorar automáticamente a partir de los datos
+sin ser programadas explícitamente. El objetivo del Machine Learning es
+desarrollar sistemas que puedan analizar y comprender grandes cantidades
+de datos, identificar patrones, hacer predicciones o tomar decisiones
+basadas en esos patrones identificados. En lugar de seguir reglas y
+algoritmos predefinidos, el Machine Learning se basa en la capacidad de
+las máquinas para aprender de los datos y ajustar sus acciones o
+predicciones en función de esa experiencia. El proceso de Machine
+Learning generalmente se divide en tres etapas principales: -
+Entrenamiento: Durante esta etapa, se proporciona a los algoritmos de
+Machine Learning un conjunto de datos de entrenamiento que contiene
+ejemplos y respuestas esperadas. El algoritmo utiliza estos datos para
+aprender patrones y crear un modelo que pueda hacer predicciones o tomar
+decisiones. - Prueba y validación: Una vez que se ha entrenado el
+modelo, se prueba su rendimiento utilizando un conjunto de datos de
+prueba independiente. Este paso es importante para verificar si el
+modelo puede hacer predicciones precisas o tomar decisiones acertadas. -
+Implementación y mejora: Después de que el modelo ha sido probado y
+validado, se implementa en un entorno de producción para su uso real. A
+medida que se recopilan nuevos datos, el modelo puede seguir mejorando y
+ajustándose mediante técnicas como el entrenamiento continuo o el
+aprendizaje en línea. Existen diferentes enfoques y técnicas que se
+utilizan para desarrollar modelos y algoritmos: - Aprendizaje
+supervisado: En este enfoque, el modelo se entrena utilizando un
+conjunto de datos etiquetados, es decir, datos que contienen ejemplos y
+sus respuestas correspondientes. El objetivo es que el modelo aprenda a
+hacer predicciones o clasificar nuevos datos basándose en los patrones
+identificados en el conjunto de entrenamiento. - Aprendizaje no
+supervisado: En este caso, el modelo se entrena utilizando un conjunto
+de datos no etiquetados, es decir, datos sin respuestas previas. El
+objetivo es que el modelo descubra patrones y estructuras ocultas en los
+datos, agrupándolos o realizando otras tareas de análisis sin necesidad
+de respuestas predefinidas. - Aprendizaje por refuerzo: En este enfoque,
+el modelo aprende a través de la interacción con un entorno y la
+retroalimentación recibida. El modelo toma acciones en un entorno y
+recibe recompensas o penalizaciones según su desempeño. El objetivo es
+que el modelo aprenda a tomar decisiones óptimas para maximizar la
+recompensa a largo plazo. - Aprendizaje profundo (Deep Learning): Es una
+técnica que se basa en redes neuronales artificiales profundas para
+aprender y extraer características complejas de los datos. Las redes
+neuronales profundas están compuestas por múltiples capas y pueden
+aprender representaciones de alto nivel de los datos, lo que las hace
+especialmente útiles para tareas como el reconocimiento de imágenes, el
+procesamiento del lenguaje natural y la traducción automática Si
+hablamos de la aplicación de esta metodología para el sector turístico
+podemos destacar diferentes usos. Una de las más conocidas sería la
+personalización de recomendaciones ya que los algoritmos de aprendizaje
+automático se utilizan para analizar los datos de los usuarios, como sus
+preferencias, historial de reservas y comportamiento de navegación, con
+el fin de ofrecer recomendaciones personalizadas. Estos algoritmos
+pueden identificar patrones y tendencias para ofrecer opciones de viaje
+relevantes y adaptadas a las preferencias individuales de los usuarios,
+algo que el usuario cada vez nota más, ya que cuando busca un
+alojamiento, puede que le aparezcan primero los resultados de otras
+cadenas en las que se ha alojado o compañías aéreas con las que ha
+volado. La demanda futura también se puede predecir con esta técnica, ya
+que analiza grandes volúmenes de datos históricos, así como datos en
+tiempo real, para predecir la demanda futura y ajustar los precios de
+manera óptima. Esto ayuda a las empresas turísticas a establecer precios
+competitivos, maximizar los ingresos y gestionar la capacidad de manera
+eficiente. Uno de los usos más recientes de esta metodología es la
+aplicación de algoritmos para analizar comentarios de los usuarios en
+redes sociales, sitios web de reseñas y otras fuentes de
+retroalimentación. Esto permite a las empresas turísticas comprender las
+opiniones y los sentimientos de los clientes, identificar tendencias y
+áreas de mejora, y responder de manera oportuna a los comentarios, pero
+también ayuda con la detección de fraudes en reservas, identificando
+patrones y comportamientos sospechosos en las transacciones. Esto ayuda
+a prevenir actividades fraudulentas y proteger tanto a las empresas
+turísticas como a los clientes. Además, se utiliza en sistemas de
+seguridad para detectar amenazas y riesgos potenciales. En general, el
+aprendizaje automático ofrece beneficios significativos en el sector
+turístico, permitiendo a las empresas tomar decisiones más eficientes y
+personalizadas, optimizar la experiencia del cliente, gestionar mejor
+los recursos y adaptarse rápidamente a las tendencias y cambios del
+mercado.
+
+\hypertarget{big-data}{%
+\subsection{Big Data}\label{big-data}}
+
+De acuerdo con M. Chen et al (2014) y según se cita en Lukosius y Hyman
+(2018), el big data son ``conjuntos de datos que no podrían percibirse,
+adquirirse, gestionarse y procesarse por medio de TICs tradicionales y
+herramientas de software/hardware dentro de unos tiempos razonables''.
+Para el mundo empresarial, el Big Data ha cobrado más y más importancia,
+el cual les da información vital sobre los consumidores, como sus
+gustos, sentimientos, opiniones, preferencias, comportamientos
+recurrentes, etc., extrayendo conclusiones de cantidades ingentes de
+información para su posterior análisis. Estos conjuntos de datos son
+generados a gran velocidad y en variedad de formatos, como datos
+estructurados (por ejemplo, bases de datos), datos no estructurados
+(como texto, imágenes o videos) y datos semiestructurados (como archivos
+XML o JSON). En el sector turístico, el Big Data juega un papel
+fundamental en la obtención y análisis de datos de los clientes. A
+medida que los avances tecnológicos y la digitalización han transformado
+la forma en que los turistas interactúan con las empresas y los destinos
+turísticos, se ha generado una gran cantidad de datos relacionados con
+los viajes y las experiencias de los clientes. En el caso del Big Data,
+presenta unas características más particulares que las del resto de
+herramientas. Por un lado, podemos destacar el volumen, y es que los
+conjuntos de datos pueden abarcar desde terabytes hasta petabytes o
+incluso exabytes de información. Esta cantidad de datos proviene de
+diversas fuentes, como redes sociales, sensores, transacciones,
+registros, entre otros. Otro aspecto es la velocidad, dado que los datos
+son generados a y actualizados a altas velocidades, y esque en este tipo
+de herramienta se requiere una respuesta rápida para aprovechar las
+oportunidades o solucionar problemas. Como ya hemos mencionado, el Big
+Data abarca diferentes tipos de datos y esto hace que se planteen
+desafíos adicionales para su almacenamiento y procesamiento. Por último,
+se debe tener en cuenta que los datos pueden ser incompletos,
+inconsistentes o incorrectos. Debido a esto, la veracidad de los datos
+puede ser un desafío, ya que es necesario validar y limpiar los datos
+para garantizar su calidad y fiabilidad. Por tanto podemos decir que las
+características principales del Big Data pueden agruparse dentro de la
+regla de las 4 ``V''.
+
+\hypertarget{aplicaciuxf3n-de-las-tecnologuxedas-al-emprendedor}{%
+\subsection{Aplicación de las tecnologías al
+emprendedor}\label{aplicaciuxf3n-de-las-tecnologuxedas-al-emprendedor}}
+
+La aplicación de smart data coo tecnología junto con IA, Bid Data y el
+reto de las tecnologías a gran escala implica utilizar técnicas y
+herramientas avanzadas de análisis de datos para obtener información
+relevante y tomar decisiones inteligentes en el contexto de un negocio o
+proyecto emprendedor. Antes de empezar, es fundamental tener claridad
+sobre los objetivos que se desealograr con el análisis de datos. ¿Se
+busca identificar oportunidades de mercado? ¿Optimizar estrategias de
+marketing? ¿Mejorar la eficiencia operativa? Establecer objetivos claros
+ayudará a enfocar los esfuerzos durante los comienzos de nuevos
+proyectos. Una vez se han establecido cuales son los objetivos a lograr
+con los medios e información que tenemos se debe tener claro cuales son
+las fuentes de datos que se van a usar, es decir, las que son más
+relevantes para el negocio. Ya seleccionadas las fuentes hay que
+asegurarse que los datos sean claros, precisos y estén actualizados.
+Como hemos visto en los anteriores apartados, al tratarse de grandes
+cantidades de información para las nuevas tecnologías y sobre todo, las
+que son de libre uso como las redes sociales pueden tener datos falsos,
+debiendo tener cuidado de no medir con esta información. Estos datos
+deben ser recopilados, clasificados y almacenados con herramientas de
+gestión de bases de datos o plataformas de almacenamiento en la nube
+para facilitar este proceso debiendo asegurarse del cumplimiento de las
+diferentes normativas de GDPR, pero a su vez los datos recopilados
+pueden contener errores, valores atípicos o información irrelevante. Es
+necesario realizar una limpieza y preprocesamiento de los datos para
+eliminar inconsistencias y asegurar su calidad. Esto implica tareas como
+eliminar registros duplicados, corregir errores y completar datos
+faltantes. Es aquí cuando entra en juego la aplicación de técnicas de
+análisis como el machine learning o la minería de datos y análisis
+estadístico para extraer información valiosa de los datos. Estas
+técnicas permitirán identificar patrones, tendencias, correlaciones y
+otros conocimientos relevantes para el negocio. Junto con el análisis se
+debe hacer una interpretación de los datos mediante gráficos y tablas.
+Una vez obtenidos los resultados del análisis, es importante
+interpretarlos en el contexto de cada negocio, evaluando los hallazgos
+obtenidos y utilizándolos como base para tomar decisiones informadas. La
+aplicación de Smart Data es un proceso continuo. A medida que se obtenga
+más datos y se realicen nuevos análisis, es importante mejorar los
+enfoques, aprendiendo de los resultados obtenidos y ajustando las
+estrategias para optimizar la toma de decisiones.
+
+\hypertarget{beneficios-y-limitaciones-del-anuxe1lisis-de-datos-en-el-sector-turuxedstico}{%
+\subsection{Beneficios y limitaciones del análisis de datos en el sector
+turístico}\label{beneficios-y-limitaciones-del-anuxe1lisis-de-datos-en-el-sector-turuxedstico}}
+
+Como podemos ver, estas herramientas han supuesto un gran avance en el
+sector turístico en general, y su aplicación permite potenciar a las
+empresas en su crecimiento y optimización, pero al igual que todo, estas
+herramientas y métodos tienen su parte positiva y sus beneficios y sus
+limitaciones. Por un lado, destacamos como beneficios la gran ayuda que
+son a la hora de la toma de decisiones informadas. El análisis de datos
+permite a las empresas turísticas tomar decisiones basadas en evidencia
+y datos reales. Puede proporcionar información valiosa sobre patrones de
+reserva, preferencias de los clientes, tendencias del mercado y
+comportamiento del consumidor, lo que permite a las empresas adaptar sus
+estrategias y crear campañas con base de conocimiento sólida. La
+personalización de servicios es posible gracias a estos métodos. El
+análisis de datos permite a las empresas turísticas comprender mejor a
+sus clientes y ofrecer servicios más personalizados. Al analizar datos
+demográficos, preferencias y comportamiento de reserva, las empresas
+pueden adaptar sus ofertas, promociones y recomendaciones para
+satisfacer las necesidades individuales de los clientes y mejorar su
+experiencia de viaje. También son de gran ayuda en cuanto a la
+optimización de precios y ofertas se refiere, permitiendo a las empresas
+turísticas ajustar los precios y las ofertas de manera más precisa. Al
+analizar datos de mercado, demanda, competencia y otros factores
+relevantes, las empresas pueden establecer precios competitivos y
+estrategias de precios dinámicos que maximicen los ingresos y la
+ocupación de los alojamientos. Por último, debemos destacar la mejora de
+la gestión operativa, ayudando a mejorar la eficiencia y la gestión
+operativa. Al analizar datos sobre la ocupación de los alojamientos, la
+disponibilidad de recursos, la gestión de inventario y otros factores
+operativos, las empresas pueden optimizar la asignación de recursos,
+reducir costos y mejorar la satisfacción del cliente. También aparecen
+limitaciones e inconvenientes que pueden causar dificultades a las
+empresas. Por un lado, la calidad de los datos debe ser buena, y en el
+sector turístico no siempre ocurre, debido a que pueden estar dispersos
+en diferentes plataformas, pueden ser datos falsos (como las opiniones
+en Google o Tripadvisor que no tienen control) o pueden contener
+errores, lo que dificulta el uso efectivo de los mismos en análisis. Un
+aspecto muy importante que se debe tener en cuenta es la privacidad y la
+protección de datos de la información de cada cliente. El sector
+turístico maneja datos personales sensibles de los clientes, como
+información de identificación, preferencias de viaje y detalles de pago.
+Es fundamental garantizar la privacidad y la protección de estos datos.
+El análisis de datos debe cumplir con las regulaciones de privacidad y
+seguridad de datos, como el Reglamento General de Protección de Datos
+(GDPR) en la Unión Europea, lo que puede imponer restricciones al acceso
+y uso de los datos, pero también debe tener en cuenta las leyes de cada
+país, ya que son diferentes. Se requiere además una adecuada
+interpretación y contextualización de los resultados. Los datos por sí
+solos no proporcionan respuestas definitivas, sino que requieren una
+comprensión profunda del dominio turístico y la capacidad de analizar
+los resultados en el contexto adecuado. La interpretación errónea de los
+datos puede llevar a decisiones equivocadas o conclusiones incorrectas.
+No debemos olvidarnos de que el sector turístico es altamente dinámico y
+está sujeto a cambios rápidos en las preferencias de los clientes, las
+tendencias de viaje y las condiciones del mercado, por lo que cuando se
+aplican estas herramientas de análisis se debe tener una actualización
+regular de los modelos y algoritmos utilizados para obtener información
+relevante y actualizada.
+
+\hypertarget{reflexiuxf3n-sobre-los-desafuxedos-y-las-oportunidades-futuras-en-este-uxe1mbito}{%
+\subsection{Reflexión sobre los desafíos y las oportunidades futuras en
+este
+ámbito}\label{reflexiuxf3n-sobre-los-desafuxedos-y-las-oportunidades-futuras-en-este-uxe1mbito}}
+
+Algo que ha quedado claro es que el turismo es una actividad
+interdependiente de otras industrias por lo que, al pausarse esta,
+sectores como la movilidad, la logística, la salud, la agricultura, la
+automoción o la alimentación, entre otros, se vieron también afectados.
+Viendo esto, y si pensamos, por ejemplo, en el caso de España, el PIB
+cerró el año 2022 con 159.490 millones de euros, cifra que es un 1,4\%
+superior a la del año 2019, según el informe trimestral de Perspectivas
+turísticas de la Alianza para la Excelencia Turística (Exceltur). El
+sector crece cada vez más y aporta más valor, pero las fuentes de datos
+se vuelven más amplias y complicadas de manjar en términos de análisis.
+De ahí, que numerosos gobiernos, entre los que destacamos el caso de
+España, se han propuesto crear espacios ``inteligentes'' en los cuales
+se aporte seguridad a la hora de las empresas compartan sus datos con
+otras del sector o en general, por lo que promueven el intercambio y
+combinación de datos. La generación de estos espacios de compartición y
+explotación de datos supondrá grandes ventajas para el sector, ya que se
+facilitará la creación de ofertas, productos y servicios más
+personalizados que proporcionen una experiencia mejorada y adaptada a
+las necesidades de los clientes, mejorando así la capacidad de atraer
+turistas. En términos generales generales y como desafíos podemos
+destacar la mejora del tamaño y la calidad de los datos, siendo este uno
+de los mayores desafíos ya que la gestión de grandes volúmenes de datos
+sigue siendo una complicación y por tanto garantizar su calidad puede
+complicarse. La industria turística genera una gran cantidad de
+información, desde reservas y transacciones hasta interacciones en redes
+sociales y opiniones de los clientes. La recopilación, integración y
+limpieza de estos datos de manera eficiente y precisa puede ser un
+desafío técnico. En cuanto al cumplimiento del GDPR pueden surgir
+complicaciones debido a las diferentes normativas que existen en
+diferentes países y marcos legislativos, por lo que deben garantizar que
+los datos de los clientes estén protegidos contra accesos no autorizados
+o brechas de seguridad. La interpretación correcta de los resultados y
+la capacidad de traducirlos en acciones concretas pueden ser
+desafiantes. Se requiere una combinación de experiencia en el sector
+turístico y habilidades analíticas para aprovechar al máximo el análisis
+de datos. A pesar de estos desafíos, también existen oportunidades que
+pueden conseguir en el futuro gracias a los desarrollos tecnológicos,
+como pueden ser la personalización y experiencia del cliente al
+comprender las preferencias individuales de los clientes, las empresas
+pueden ofrecer recomendaciones y ofertas personalizadas, lo que mejora
+la satisfacción del cliente y fomenta la fidelidad. En cuanto a la
+predicción y anticipación de la demanda se verán beneficiados utilizando
+técnicas avanzadas de análisis y modelos predictivos, las empresas
+turísticas pueden anticipar la demanda futura y ajustar su oferta en
+consecuencia. Por otro lado, el uso más reciente pero con mayor auge
+será el de las redes sociales, lo que permitirá una lectura correcta de
+los comentarios y opiniones además del análisis de las ubicaciones de
+los extranjeros y nacionales en un destino puntual para ver los
+comportamientos.
+
+\hypertarget{referencias}{%
+\subsection{Referencias}\label{referencias}}
+
+Las fuentes estadísticas y su rentabilidad en el sector turístico.
+(s/f). Cehat.com. Recuperado el 8 de junio de 2023, de
+https://cehat.com/las-fuentes-estadisticas-y-su-rentabilidad-en-el-sector-turistico/
+EP. (2023, enero 17). El PIB turístico cerró 2022 recuperando el nivel
+prepandemia. Ediciones EL PAÍS S.L.
+https://cincodias.elpais.com/cincodias/2023/01/17/companias/1673960751\_828579.html
+Es, D. G. (2023, febrero 7). Radiografía del dataspace nacional de
+Turismo: retos y oportunidades para el sector turístico. datos.gob.es.
+https://datos.gob.es/es/blog/radiografia-del-dataspace-nacional-de-turismo-retos-y-oportunidades-para-el-sector-turistico
+El Sistema de Inteligencia Turística ayuda a los destinos a conocer las
+necesidades de los turistas. (2016, junio 2). SEGITTUR.
+https://www.segittur.es/sala-de-prensa/notas-de-prensa/el-sistema-de-inteligencia-turistica-ayuda-a-los-destinos-a-conocer-las-necesidades-de-los-turistas/
+Sabadell, B. (s/f). El Blog de Banco Sabadell. El Blog de Banco
+Sabadell. Recuperado el 8 de junio de 2023, de
+https://blog.bancsabadell.com/2018/04/las-cuatro-v-del-big-data-volumen-variedad-velocidad-veracidad-que-es-el-big-data-para-que-sirve-con-sabadell-campus.html
+Hosteltur. (2023, marzo 24). Airbnb supera las cifras prepandemia a lo
+grande. Hosteltur.
+https://www.hosteltur.com/156656\_airbnb-supera-las-cifras-prepandemia-a-lo-grande.html
+Hosteltur. (s/f). Las 6 claves del uso del Big Data en el turismo.
+Hosteltur: Toda la información de turismo. Recuperado el 8 de junio de
+2023, de
+https://www.hosteltur.com/comunidad/005340\_las-6-claves-del-uso-del-big-data-en-el-turismo.html
+Juan, C. (2023). Las oportunidades de negocio que ofrece el Big Data en
+el sector turístico. Thinking for Innovation.
+https://www.iebschool.com/blog/big-data-en-el-sector-turistico-big-data/
+Braintrust-Ekm, C. (2019, septiembre 19). Why should the tourism company
+know its customers? BrainTrust CS.
+https://www.braintrust-cs.com/en/empresa-turistica-conocer-clientes/
+López, R. G. (2022, junio 30). Tecnologías que transforman el turismo.
+Marketing Turístico Digital - Las nuevas tendencias del Marketing
+Digital incorporadas al sector turístico.
+https://marketingturisticodigital.com/2022/06/30/tecnologia-y-turismo/
+
+\bookmarksetup{startatroot}
+
+\hypertarget{la-gobernanza-de-datos-en-pymes-emprendedoras}{%
+\chapter{La Gobernanza de Datos en PYMEs
+Emprendedoras}\label{la-gobernanza-de-datos-en-pymes-emprendedoras}}
+
+Autora: Bielka Yuvnny Ulloa Reynoso
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis,
+elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu,
+laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam
+tristique dui id elit egestas condimentum. Integer gravida fermentum
+placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed.
+Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed
+tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate
+aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor.
+Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non
+neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet
+sit amet dui. Maecenas auctor vehicula volutpat.
+
+\hypertarget{titular-14}{%
+\section{Titular}\label{titular-14}}
+
+Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien
+rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam.
+Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex
+vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus
+est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis
+ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis,
+tristique id orci a, auctor rhoncus risus. Praesent lacus nunc,
+sollicitudin quis ipsum id, pulvinar venenatis mi.
+
+\hypertarget{titular-15}{%
+\subsection{Titular}\label{titular-15}}
+
+Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris.
+Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus
+nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus,
+eu sollicitudin risus elementum non. Aliquam metus eros, maximus
+dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi
+magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus
+sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit
+amet tempus.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{references}{%
+\chapter*{References}\label{references}}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\end{CSLReferences}
+
+
+
+\end{document}

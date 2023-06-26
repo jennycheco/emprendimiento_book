@@ -1,12 +1,19 @@
+
 **# El proceso emprendedor**
 ================================================================================
+=======
+# Proceso Emprendedor
+Autora: Karen Jualiana Fernández Castillo
+
 
 ## Introducción
 ___________________________________________________________________________
 
+
 El proceso emprendedor es la descripción de un camino donde aprovechar las oportunidades es el inicio. Los emprendedores juegan un papel muy importante, puesto que estos generan empleos para sus comunidades, lo que promueve el crecimiento económico general. Para hablar del proceso emprendedor, debemos mencionar sus elementos fundamentales, características, las habilidades y estrategias que los emprendedores usan para convertir sus ideas en una realidad.
 
 Es primordial saber identificar las oportunidades, y, un emprendedor detecta esas necesidades sin satisfacer, para así generar las ideas innovadadoras que abordarán estas necesidades. Luego, el emprendedor utiliza sus conocimientos para comprobar la viabilidad de estas ideas, y el potencial que presenta llevar a cabo sus propuestas.
+
 
 Concebir la idea es solo el inicio, pues se debe definir la búsqueda de recursos financieros, tecnológicos y obtener las habilidades necesarias para crear un negocio fructífero. Las fuentes de financiacón, los posibles inversionistas, las estrategias, el liderazgo y la correcta gestión aportarán, de igual manera a este fin.
 
@@ -278,4 +285,5 @@ Valencia, F. Á. M., Restrepo, I. a. M., & Restrepo, J. M. (2019). El Individuo 
   url = {https://doi.org/10.12804/revistas.urosario.edu.co/empresa/a.6197},
   doi = {10.1093/comjnl/27.2.97},
 }
+
 
