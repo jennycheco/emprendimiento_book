@@ -1,4 +1,5 @@
 # Prácticas de Gestión
+Autora: Karen Paulina Salazar Núñez
 El emprendimiento en datos ha experimentado un crecimiento exponencial en los últimos años y los expertos concuerdan en que los datos se han convertido en el principal activo de las organizaciones por su relevancia para la creacion de estrategias  y toma de decisiones y esto queda demostrado con el auge de las oportunidades de negocio basadas en tratamiento de los datos disponibles con herramientas de análisis avanzado. Sin embargo, el éxito en este campo requiere no solo habilidades técnicas, sino también una sólida comprensión de las prácticas de gestión adecuadas. 
 Actualmente según una encuesta realizada por Accenture Research se reveló que solo el 32% de las empresas han podido obtener valor tangible y medible de los datos, y sus desafíos van más allá de la tecnología, incluyendo temas culturales y operativos.
 Para la gestión de datos debemos tener en cuenta dos puntos muy importantes cuales son las prácticas más adecuadas para la gestión de datos y los beneficios de estos. Además de las plataformas y herramientas de gestión de datos.En el emprendimiento de datos se debe recopilar grandes cantidades de información de diversas fuentes y luego utilizar las mejores prácticas mientras pasan por el proceso de almacenamiento y administración de los datos, limpiando y extrayendo los datos, y luego analizando y visualizando los datos para informar sus decisiones comerciales.
@@ -131,6 +132,8 @@ Finalmente, podemos resumir que las herramientas de gestión de datos son aplica
 La relación entre estas dos categorías de herramientas es que el software de datos es utilizado como componente clave dentro de las herramientas de gestión de datos. Por ejemplo, una herramienta de gestión de datos puede utilizar una base de datos relacional como componente central para almacenar y organizar los datos. También puede utilizar un software de análisis de datos para extraer información y generar informes a partir de los datos almacenados.
 En resumen, las herramientas de gestión de datos y el software de datos trabajan juntos para facilitar la administración, manipulación y análisis de datos de manera eficiente y efectiva.
 De este modo, es evidente que estas prácticas de gestión son claves para el emprendimiento en datos. Desde establecer objetivos claros hasta gestionar la seguridad y privacidad de los datos, estas prácticas son fundamentales para el éxito en este campo en constante evolución. Al aplicar estas prácticas de gestión de manera efectiva, los emprendedores en datos pueden maximizar sus oportunidades.
+=======
+Autora: Karen Paulina Salazar Núñez
 
 
 
