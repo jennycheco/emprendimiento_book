@@ -1,4 +1,6 @@
-# Prefacio {.unnumbered}
+# La Gobernanza de Datos en PYMEs Emprendedoras
+
+Autora: Bielka Yuvnny Ulloa Reynoso
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat.
 
@@ -10,4 +12,3 @@ Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aene
 
 Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus.
 
-This is a Quarto book.
