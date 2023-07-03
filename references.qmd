@@ -1,4 +1,13 @@
 # References {.unnumbered}
-
-::: {#refs}
+Definición de software de base de datos. (n.d.). Techlandia. Retrieved June 14, 2023, from https://techlandia.com/definicion-software-base-datos-sobre_396757/
+Gestión de datos: Conceptos, Mejores Prácticas y Beneficios. (n.d.). Tecnologías de Información: Sistemas de Gestión y Administración. Retrieved June 2, 2023, from https://www.tecnologias-informacion.com/gestiondatos.html
+Holton, B. (n.d.). Las 9 mejores herramientas de análisis de datos para data management. Blog de Bismart. Retrieved June 14, 2023, from https://blog.bismart.com/9-mejores-herramientas-analisis-datos-
+Mejores prácticas para el análisis avanzado y la gestión de datos. (2022, January 17). ManageEngine Blog. Retrieved June 2, 2023, from https://blogs.manageengine.com/espanol/2022/01/17/mejores-practicas-analisis-avanzado-gestion-de-datos.html
+Montenegro, I. (2019, October 11). Gestión de datos: 5 mejores prácticas para manejarlos de forma efectiva. GB Advisors. Retrieved June 2, 2023, from https://www.gb-advisors.com/es/gestion-de-datos/
+Ortega, C. (n.d.). Herramientas de gestión de datos: Qué son y ejemplos. QuestionPro. Retrieved June 14, 2023, from https://www.questionpro.com/blog/es/herramientas-de-gestion-de-datos/
+Ortega, C. (n.d.). Software de gestión de datos: Guía para principiantes. QuestionPro. Retrieved June 14, 2023, from https://www.questionpro.com/blog/es/software-de-gestion-de-datos/
+Plataforma de gestión de datos: 5 mejores prácticas para la gestión de la información. (2021, June 17). Tatic. Retrieved June 2, 2023, from https://tatic.net/es/blog/plataforma-de-gestion-de-datos-5-mejores-practicas-para-la-gestion-de-la-informacion/
+Roca, C. (n.d.). Gestión de Datos | Pasos para implementar una herramienta de gestión. ThePowerMBA. Retrieved June 14, 2023, from https://www.thepowermba.com/es/blog/herramientas-de-gestion-de-datos
+10 buenas prácticas de las empresas data-driven. (2022, February 7). El Valor de la Gestión de Datos. Retrieved June 2, 2023, from https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/10-buenas-practicas-de-las-empresas-data-driven
+Zúñiga, M. (2022, August 12). Nueve mejores prácticas para evitar una mala gestión de datos. IT Masters Mag. Retrieved June 2, 2023, from https://www.itmastersmag.com/noticias-analisis/nueve-mejores-practicas-para-evitar-una-mala-gestion-de-datos/
 :::
