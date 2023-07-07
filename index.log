@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.3)  3 JUL 2023 18:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.3)  7 JUL 2023 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,11 +404,7 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-)
-\cslhangindent=\skip77
-\csllabelwidth=\skip78
-\cslentryspacingunit=\skip79
-(c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-06-25 v7.01a Hypertext links for LaTeX
@@ -516,7 +512,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip80
+\Hy@SectionHShift=\skip77
 ) (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count315
@@ -788,55 +784,55 @@ Package pdfcol Info: pdfTeX's color stacks are not available.
 \tcb@totalupperbox=\box89
 \tcb@totallowerbox=\box90
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 173.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
 No file index.aux.
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-Package scrbase Info: activating english \abstractname on input line 179.
-Package scrbase Info: activating english \partname on input line 179.
-Package scrbase Info: activating english \chaptername on input line 179.
-Package scrbase Info: activating english \appendixname on input line 179.
-Package scrbase Info: activating english \figurename on input line 179.
-Package scrbase Info: activating english \tablename on input line 179.
-Package scrbase Info: activating english \contentsname on input line 179.
-Package scrbase Info: activating english \listfigurename on input line 179.
-Package scrbase Info: activating english \listtablename on input line 179.
-Package scrbase Info: activating english \bibname on input line 179.
-Package scrbase Info: activating english \indexname on input line 179.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+Package scrbase Info: activating english \abstractname on input line 156.
+Package scrbase Info: activating english \partname on input line 156.
+Package scrbase Info: activating english \chaptername on input line 156.
+Package scrbase Info: activating english \appendixname on input line 156.
+Package scrbase Info: activating english \figurename on input line 156.
+Package scrbase Info: activating english \tablename on input line 156.
+Package scrbase Info: activating english \contentsname on input line 156.
+Package scrbase Info: activating english \listfigurename on input line 156.
+Package scrbase Info: activating english \listtablename on input line 156.
+Package scrbase Info: activating english \bibname on input line 156.
+Package scrbase Info: activating english \indexname on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 179.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 179.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 179.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 179.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 179.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 179.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 156.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 179.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 156.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -862,7 +858,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 179.
+(Font)              scaled to size 10.95pt on input line 156.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -894,15 +890,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 179.
+(Font)              scaled to size 10.95pt on input line 156.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 179.
+(Font)              `operators' in the math version `normal' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 179.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 156.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 179.
+(Font)              `operators' in the math version `bold' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 179.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 156.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -981,13 +977,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 179.
+(Font)              `symbols' in the math version `normal' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 179.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 156.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 179.
+(Font)              `symbols' in the math version `bold' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 179.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 156.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -1048,19 +1044,19 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 179.
+(Font)              `largesymbols' in the math version `normal' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 179.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 156.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 179.
+(Font)              `largesymbols' in the math version `bold' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 179.
-LaTeX Info: Redefining \microtypecontext on input line 179.
-Package microtype Info: Applying patch `item' on input line 179.
-Package microtype Info: Applying patch `toc' on input line 179.
-Package microtype Info: Applying patch `eqnum' on input line 179.
-Package microtype Info: Applying patch `footnote' on input line 179.
-Package microtype Info: Applying patch `verbatim' on input line 179.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 156.
+LaTeX Info: Redefining \microtypecontext on input line 156.
+Package microtype Info: Applying patch `item' on input line 156.
+Package microtype Info: Applying patch `toc' on input line 156.
+Package microtype Info: Applying patch `eqnum' on input line 156.
+Package microtype Info: Applying patch `footnote' on input line 156.
+Package microtype Info: Applying patch `verbatim' on input line 156.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1069,7 +1065,7 @@ Package microtype Info: No adjustment of kerning.
 (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
 )
-Package hyperref Info: Link coloring ON on input line 179.
+Package hyperref Info: Link coloring ON on input line 156.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
@@ -1081,34 +1077,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 181.
+(Font)              scaled to size 14.4pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 181.
+(Font)              scaled to size 10.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 181.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 181.
+(Font)              scaled to size 7.0pt on input line 158.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 158.
 (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 181.
+(Font)              scaled to size 14.4013pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 181.
+(Font)              scaled to size 10.00092pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 181.
+(Font)              scaled to size 7.00064pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 181.
+(Font)              scaled to size 14.39845pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 181.
+(Font)              scaled to size 9.99893pt on input line 158.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 181.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 181.
+(Font)              scaled to size 6.99925pt on input line 158.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 158.
 (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 181.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 158.
 (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/javie/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1118,7 +1114,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 187.
+Package tocbasic Info: character protrusion at toc deactivated on input line 164.
 No file index.toc.
 \tf@toc=\write4
 \openout4 = `index.toc'.
@@ -1149,62 +1145,62 @@ Class scrreprt Warning: \float@addtolists detected!
 [6
 
 ] [7] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (16.7446pt too wide) in paragraph at lines 900--931
+Overfull \hbox (16.7446pt too wide) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 prendimiento, características y ejemplos exitosos. Hubspot.es. https://blog.hubspot.es/sales/guia-
  []
 
 
-Overfull \hbox (129.15508pt too wide) in paragraph at lines 900--931
+Overfull \hbox (129.15508pt too wide) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 formación y conocimiento. Estrategia y Negocios. https://www.estrategiaynegocios.net/centroamericaymundo/diferencia-
  []
 
 
-Overfull \hbox (9.5395pt too wide) in paragraph at lines 900--931
+Overfull \hbox (9.5395pt too wide) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 para iniciar un negocio. (2020, June 4). Ostelea.com. https://www.ostelea.com/actualidad/blog-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--931
+Underfull \hbox (badness 10000) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 turismo/tendencias-en-turismo/emprender-en-turismo-conceptos-clave-para-iniciar-un-
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 900--931
+Underfull \hbox (badness 1082) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 negocio Glosario de términos de turismo. (n.d.). Unwto.org. Retrieved June 15,
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 900--931
+Underfull \hbox (badness 7203) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 2023, from https://www.unwto.org/es/glosario-terminos-turisticos Herrera, F. (2016,
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 900--931
+Underfull \hbox (badness 1077) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 August 2). El poder de los datos: aplicaciones del Big Data. Fundación Aquae.
  []
 
 
-Overfull \hbox (54.72803pt too wide) in paragraph at lines 900--931
+Overfull \hbox (54.72803pt too wide) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 cios del Big Data para el sector turístico. Blog de Hiberus Tecnología. https://www.hiberus.com/crecemos-
  []
 
 
-Overfull \hbox (49.23328pt too wide) in paragraph at lines 900--931
+Overfull \hbox (49.23328pt too wide) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 datos en turismo, una oportunidad para Europa. Hosteltur. https://www.hosteltur.com/157717_gestion-
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 900--931
+Underfull \hbox (badness 5022) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 INE. Retrieved June 15, 2023, from https://www.ine.es/jaxiT3/Datos.htm?t=10822
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 900--931
+Underfull \hbox (badness 1270) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 Red de Destinos Turísticos Inteligentes en España. (2019, February 18). SEGIT-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--931
+Underfull \hbox (badness 10000) in paragraph at lines 877--908
 \TU/lmr/m/n/10.95 TUR. https://www.segittur.es/destinos-turisticos-inteligentes/proyectos-destinos/red-dti/
  []
 
@@ -1216,39 +1212,111 @@ chapter 2.
 chapter 3.
 [24
 
-]
+] [25] [26] [27] [28] [29] [30] [31] [32]
 chapter 4.
-[25
 
-]
+Overfull \hbox (345.6073pt too wide) in paragraph at lines 1898--1900
+[]\TU/lmr/bx/n/10.95 ## Conceptualización \TU/lmr/m/n/10.95 ________________________________________________________________________________ 
+ []
+
+[33
+
+] [34]
+Overfull \hbox (358.8166pt too wide) in paragraph at lines 1985--1987
+[]\TU/lmr/bx/n/10.95 ## Etapas del proceso emprendedor  \TU/lmr/m/n/10.95 ________________________________________________________________________ 
+ []
+
+
+Overfull \hbox (380.08517pt too wide) in paragraph at lines 1998--2000
+[]\TU/lmr/bx/n/10.95 ## Determinantes del emprendimiento \TU/lmr/m/n/10.95 _________________________________________________________________________ 
+ []
+
+[35] [36] [37] [38] [39] [40]
 chapter 5.
-[26
+
+Overfull \hbox (259.13153pt too wide) in paragraph at lines 2286--2290
+\TU/lmr/m/n/10.95 cional. https://books.google.com.do/books?hl=en&lr=&id=2GuHhOYk59kC&oi=fnd&pg=PA3&ots=qUTphF3ws1&sig=21_orJGb2fXF51BHusT-
+ []
+
+
+Overfull \hbox (292.67139pt too wide) in paragraph at lines 2291--2298
+\TU/lmr/m/n/10.95 {USA}, url = {https://books.google.com.do/books?hl=en&lr=&id=2GuHhOYk59kC&oi=fnd&pg=PA3&ots=qUTphF3ws1&sig=21_orJGb2fXF51BHusT-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2299--2310
+\TU/lmr/m/n/10.95 = {https://sitios.vtte.utem.cl/rches/wp-content/uploads/sites/8/2017/12/02-revista-ches-
+ []
+
+[41
 
 ]
+Underfull \hbox (badness 1242) in paragraph at lines 2322--2326
+\TU/lmr/m/n/10.95 sus motivaciones en el proceso emprendedor. Universidad Y Empresa, 21(36), 149.
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 2327--2335
+[]\TU/lmr/m/n/10.95 (\TU/lmr/bx/n/10.95 article?\TU/lmr/m/n/10.95 ){Valencia19, author = {Valencia, F. Á. M., Restrepo, I. a. M., & Re-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 2327--2335
+\TU/lmr/m/n/10.95 strepo, J. M.}, title = {El Individuo y sus motivaciones en el proceso emprende-
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 2327--2335
+\TU/lmr/m/n/10.95 dor}, year = {2019}, issue_date = {2018}, publisher = {Revista Universidad y
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 2327--2335
+\TU/lmr/m/n/10.95 Empresa}, address = {Colombia}, volume = {21}, number = {36}, issn = {0010-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 2327--2335
+\TU/lmr/m/n/10.95 4620}, url = {https://doi.org/10.12804/revistas.urosario.edu.co/empresa/a.6197}, doi =
+ []
+
+[42]
 chapter 6.
-[27
+[43
 
-]
+] [44] [45] [46] [47] [48] [49] [50]
 chapter 7.
-[28
+[51
 
 ]
 chapter 8.
-[29
+[52
 
-] [30]
+]
+chapter 9.
+[53
+
+] [54] [55] [56] [57] [58] [59] [60] [61]
+chapter 10.
+[62
+
+]
+chapter 11.
+[63
+
+] [64]
 ! Unable to load picture or PDF file 'index_files/mediabag/ebf9853f-4644-4ba6-a.pdf'.
 <to be read again> 
                    }
-l.1805 ...files/mediabag/ebf9853f-4644-4ba6-a.pdf}
+l.3456 ...files/mediabag/ebf9853f-4644-4ba6-a.pdf}
                                                    Una vez 
 Here is how much of TeX's memory you used:
- 36747 strings out of 477869
- 767965 string characters out of 5820873
- 1960869 words of memory out of 5000000
- 57146 multiletter control sequences out of 15000+600000
+ 36782 strings out of 477869
+ 768505 string characters out of 5820873
+ 2059869 words of memory out of 5000000
+ 57181 multiletter control sequences out of 15000+600000
  561657 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,8n,120p,10900b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,120p,10900b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (30 pages).
+Output written on index.pdf (64 pages).
