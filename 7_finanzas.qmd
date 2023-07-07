@@ -1,9 +1,8 @@
 # FINANZAS DE DATOS PARA EMPRENDEDORES
 
-Autora: Salomé Shirley Criollo Linaico
+Autora: Salomé Shirley Criollo Limaico
 
 El contexto de la finanza de datos para emprendedores se basa en la creciente disponibilidad de datos, la tecnología de análisis de datos, la ventaja competitiva, la personalización del cliente y la gestión del riesgo financiero. Al comprender y aplicar las finanzas de datos, los emprendedores pueden tomar decisiones financieras un poco más informadas y estratégicas, lo que puede impulsar el crecimiento y el éxito de sus negocios Díaz Restrepo, C. A., & Agudelo Aguirre, A. A. (2022).
-
 
 ## ANTECEDENTES
 
