@@ -1,8 +1,8 @@
-# Finanzas de Datos para Emprendedores
+# FINANZAS DE DATOS PARA EMPRENDEDORES
 
 Autora: Salomé Shirley Criollo Limaico
 
-El contexto de la finanza de datos para emprendedores se basa en la creciente disponibilidad de datos, la tecnología de análisis de datos, la ventaja competitiva, la personalización del cliente y la gestión del riesgo financiero. Al comprender y aplicar las finanzas de datos, los emprendedores pueden tomar decisiones financieras más informadas y estratégicas, lo que puede impulsar el crecimiento y el éxito de sus negocios Díaz Restrepo, C. A., & Agudelo Aguirre, A. A. (2022).
+El contexto de la finanza de datos para emprendedores se basa en la creciente disponibilidad de datos, la tecnología de análisis de datos, la ventaja competitiva, la personalización del cliente y la gestión del riesgo financiero. Al comprender y aplicar las finanzas de datos, los emprendedores pueden tomar decisiones financieras un poco más informadas y estratégicas, lo que puede impulsar el crecimiento y el éxito de sus negocios Díaz Restrepo, C. A., & Agudelo Aguirre, A. A. (2022).
 
 ## ANTECEDENTES
 
@@ -122,4 +122,3 @@ Skyscanner es otro motor de búsqueda de vuelos y hoteles que utiliza las finanz
 6. El uso de las finanzas de datos implica la gestión adecuada de los riesgos asociados con la seguridad y privacidad de los datos. Los emprendedores deben tomar medidas para garantizar la protección de los datos y cumplir con las regulaciones de privacidad. Esto implica establecer protocolos de seguridad robustos, implementar medidas de encriptación y acceso limitado a los datos, y asegurarse de que se cumplan los estándares de privacidad establecidos.
 
 # References
-
