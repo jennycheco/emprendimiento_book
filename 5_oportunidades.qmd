@@ -3,13 +3,99 @@
 Autora: Jenny María Checo Vargas
 
 Temas de referencia: - a - b - c
+Industria turistica
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus ut libero nec semper. In quam lorem, rutrum in nulla quis, elementum volutpat odio. Phasellus felis nunc, semper eu sodales eu, laoreet nec arcu. Sed ac magna quis sapien accumsan gravida. Etiam tristique dui id elit egestas condimentum. Integer gravida fermentum placerat. Ut hendrerit viverra ipsum, id vehicula magna tincidunt sed. Nunc fermentum diam purus, non dignissim purus tincidunt vitae. Sed tincidunt tortor vitae malesuada molestie. Sed aliquet, est a vulputate aliquet, massa erat hendrerit arcu, in ultrices nulla nisl vel tortor. Nam velit est, venenatis et tortor ac, rhoncus feugiat est. Nunc non neque erat. Etiam eget ipsum fermentum risus lobortis consequat sit amet sit amet dui. Maecenas auctor vehicula volutpat.
+El sector turístico es una de las industrias más importantes a nivel mundial, con un crecimiento constante en las últimas décadas. Según Statista, en 2023, en el año 2021, la contribución de la industria turística al PIB mundial fue de unos 5,8 billones de dólares estadounidenses.
 
-## Titular
+La aportación del sector turístico se refiere al valor de los bienes y servicios producidos por las industrias relacionadas con la actividad de los turistas: alojamiento, agencias de viajes, aerolíneas y otros servicios de transporte de pasajeros, así como restauración y demás sectores del ocio. La contribución del turismo al empleo, por su parte, ascendió a unos 290 millones de trabajos.
 
-Etiam ultricies magna imperdiet nunc malesuada, ac lobortis sapien rhoncus. Aenean eros lectus, accumsan vitae faucibus a, aliquam ac diam. Maecenas finibus justo non nibh pharetra aliquam. Maecenas egestas, ex vitae blandit convallis, leo mauris ornare nunc, porta fermentum tellus est et urna. Aenean eu est et sapien laoreet placerat. Nunc turpis ipsum, dapibus a ipsum at, tempus pretium lacus. In libero turpis, tristique id orci a, auctor rhoncus risus. Praesent lacus nunc, sollicitudin quis ipsum id, pulvinar venenatis mi.
+Según datos de la Organización Mundial del Turismo (OMT), en un 2021 todavía marcado por la pandemia de COVID-19, se registraron en todo el mundo casi 430 millones de llegadas de turistas internacionales, es decir, no residentes en el país de destino que pernoctaron al menos una noche. Además, el gasto total de los turistas extranjeros se estimó en alrededor de 1,3 billones de dólares estadounidenses.
 
-### Titular
+Europa es el continente en el que se registran más llegadas de turistas internacionales cada año. De hecho, Francia encabeza la lista de países más visitados del mundo por delante de México. En el ranking de países dónde más gastan los turistas extranjeros, sin embargo, es el país norteamericano el que se impone a Francia y España.
 
-Vivamus libero leo, accumsan non turpis vel, eleifend sodales mauris. Donec pellentesque, tellus a lacinia vestibulum, nisl lacus dapibus nibh, id tincidunt turpis erat non nisl. Donec ornare imperdiet metus, eu sollicitudin risus elementum non. Aliquam metus eros, maximus dignissim pellentesque nec, venenatis vitae purus. Vivamus laoreet mi magna, ac malesuada tellus condimentum in. Integer nulla lectus, finibus sit amet ex nec, finibus molestie diam. Pellentesque gravida ac erat sit amet tempus.
+Las posibilidades para una empresa representan posibilidades abiertas cambiar, crecer, mejorar o evolucionar mientras más oportunidades tiene una organización más posibilidades de:
+Acceder nuevos mercados, 
+Mejorar la relación con el cliente, 
+Expandir operaciones
+Mejorar la atención y satisfacción de cliente
+Desarrollar nuevos productos o servicios,
+Incorporar nuevas tecnologías 
+Diseñar nuevas estrategias
+Diversificar los ingresos
+
+Tendencias actuales en la industria del turismo 
+
+Las tendencias actuales en la industria del turismo en relación con las oportunidades de negocios en datos son abundantes y están en constante evolución. Aquí mencionamos algunas tendencias relevantes:
+1. Personalización de la experiencia del cliente
+Las empresas turísticas pueden utilizar los datos para mejorar la experiencia del cliente en todas las etapas del viaje. Desde la fase de planificación hasta la estancia y el regreso, los datos pueden ayudar a personalizar las ofertas, proporcionar recomendaciones relevantes, facilitar servicios de atención al cliente más eficientes y mejorar la satisfacción general del cliente.
+
+2. La experiencia del cliente basada en datos
+La satisfacción de los clientes debe ser una prioridad para cualquier empresa turística, desarrolle donde desarrolle su actividad, con independencia de su tamaño, de su localización, o del público al que se dirija.
+
+La digitalización mejora la experiencia del usuario con la marca. Se aumenta y perfecciona la comunicación con él, a través de los múltiples canales, dando mejor respuesta a sus demandas o reclamaciones gracias a que se ejerce una escucha activa de sus intereses, se le ofrecen herramientas eficaces para gestionar las operaciones que desee, en un entorno más seguro... En definitiva, se estrechan lazos entre empresa y consumidor.
+
+3. Análisis de mercados y la demanda
+La proliferación de los móviles en estos últimos años ha supuesto un cambio cuantitativo importante en las posibilidades de mejorar el conocimiento del mercado emisor de los destinos turísticos, así como de los propios clientes de las empresas turísticas: hoteles, aerolíneas, agencias. Se pueden distinguir tres tipos de datos generados por las diferentes fuentes de transacción utilizados por los turistas. Sobre todo, los dispositivos móviles: 
+
+Datos generados por el usuario: datos online de tipo textual como blogs, posts en redes sociales, comentarios de servicios, opiniones, datos con geo-tags de comida, restaurantes, datos de tipo imagen sobre el destino. 
+Datos propios de los dispositivos: Cámaras CCTV de lugares turísticos, hoteles, restaurantes, datos GPS de vehículos y móviles, datos de roaming de los operadores, datos de Bluetooth, datos meteorológicos, etc. 
+Datos transaccionales: datos de consultas en buscadores, datos de visitas a páginas web, datos de reservas online, etc. 
+
+Esta diversidad de datos está abriendo grandes oportunidades a los departamentos de marketing de las empresas turísticas, así como a los investigadores de organismos públicos y de los destinos turísticos para realizar investigaciones y estudios sobre cuestiones como tendencias del turismo, hábitos y comportamientos de los turistas, impacto de campañas de marketing, análisis de flujos turísticos, etc. A continuación, vamos a ver con más detalle alguno de estos tipos de estudios
+
+Análisis de comportamiento de turistas Estacionalidad de la demanda: el Big Data puede ser fundamental para prever mejor la estacionalidad y gestionar las operaciones en las atracciones turísticas.
+
+ * Gestión de operaciones de agencias locales que pueden aportar información relevante para la gestión de otros negocios como hoteles, cadenas comerciales y de restaurantes, etc. 
+* Análisis de gastos en destino: se pueden recoger datos de compras, comidas, participación en festivales y eventos. Las empresas turísticas pueden analizar el flujo de turistas en un sitio turístico específico basado en el histórico y en la tendencia actual. A partir de estos análisis se pueden adaptar las ofertas de alojamiento, alimentación y otros recursos.
+
+ 4. Gestión de ingresos y precios
+
+Los datos tienen un papel significativo en la fijación de precios y por ende en la gestión de ingresos en los destinos. Las empresas pueden utilizar técnicas y herramientas para establecer precios dinámicos basándose en la data para ajustar los precios en tiempo real según la oferta y la demanda, las temporadas, eventos especiales y otros factores que intervienen.
+
+5. Marketing y promoción basada en datos
+
+Los datos permiten a las empresas turísticas desarrollar estrategias de marketing más efectivas orientadas al público objetivo. 
+		 	 	 					
+En la industria turística, la estrategia de marketing puede ser bastante difícil de definir correctamente porque los potenciales clientes son bastante diversos en quienes son, de dónde viene y qué está buscando. Es ahí donde el Big Data permite ayudar a las empresas de turismo a adoptar un enfoque estratégico a sus esfuerzos en marketing, apuntando a los perfiles de clientes adecuados y de la manera correcta.
+
+Concretamente, el Big Data puede ayudar a las empresas a identificar las principales tendencias que prefieren sus clientes, donde están las similitudes y cuales son las mejores oportunidades de marketing. También puede ayudar a las empresas a entender dónde se desplazan los clientes y cuando es más apropiado dirigir las campañas de marketing.
+
+Con el Big Data es posible automatizar los mensajes a enviar a los clientes, enviarlos a tiempo, la localización y otros datos, permitiendo dirigir mejor el contenido promocional a ofrecer. 
+
+6. Gestión de la reputación y opiniones del cliente
+
+Otro de los usos más importantes del Big Data en turismo es la gestión de la reputación online. Ahora, en la era de internet, los viajeros pueden dejar reseñas y compartir sus opiniones sobre su experiencia en cualquiera de las diferentes plataformas, redes sociales, páginas especializadas, motores de búsquedas, aplicaciones móviles. Los usuarios tienen cada vez más en cuenta las opiniones y revisiones de otros y comparan diferentes hoteles o servicios antes de realizar una reserva.
+
+Todos estos datos combinados con el retorno adquirido internamente se pueden usar para localizar las tendencias más significativas y las debilidades. Además de conocer en qué aspectos el turista ha estado satisfecho o no con el servicio. Una vez que esta información se recolecta, los hoteles pueden utilizarlo para informar sus esfuerzos de formación para hacer mejoras y asegurar futuras reseñas y opiniones positivas. 
+
+El análisis de datos puede ayudar a las empresas turísticas a monitorear y gestionar su reputación en línea. Al analizar las opiniones y comentarios de los clientes en plataformas digitales, las empresas pueden obtener información sobre la satisfacción del cliente, identificar áreas de mejora, responder de manera oportuna a los problemas y mantener una imagen positiva en línea.
+
+7.  Oportunidades de emprendimiento en datos.
+
+Los datos respecto a los movimientos de viajeros, sus preferencias de compra, sus aspiraciones; estos datos, si se tratan adecuadamente, representan una gran ventaja para las empresas del sector turístico que desde ahora van a tener la oportunidad para definir y optimizar sus estrategias de crecimiento de las ventas. 
+
+Los avances tecnológicos dentro del turismo producen cambios en los comportamientos de consumo (Urquart, 2019) y consecuentemente supone crear nuevas oportunidades para las empresas turísticas para usar la tecnología como una ventaja competitiva. 
+
+Las Agencias de viajes en línea OTA: como Booking y Expedia utilizan datos para proporcionar recomendaciones de alojamientos personalizados y ofrecer ofertas especiales en las preferencias del usuario.
+
+Aplicaciones de planificación de viajes
+
+Consultoras: Estas empresas con un analistas de datos, estrategas en marketing  recopilan y analizan datos sobre el flujo de turista, las tendencias en líneas 
+
+Oportunidades de negocios en el area de emprendimiento de datos
+
+Community Manager
+Especialista en marketing digital
+Especialista en comercio electrónico
+Especialista en marketing digital
+Especialista en optimización de motores de búsqueda
+Especialista en gestión de proyectos de datos
+Científicos de datos
+Analista de datos
+Ingeniero de datos
+
+
+
+
+
+
