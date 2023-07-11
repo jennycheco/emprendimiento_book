@@ -94,7 +94,9 @@ Científicos de datos
 Analista de datos
 Ingeniero de datos
 
-
+## Referencias 
+Orús, A. (2022, October 6). Aportación del turismo al PIB en el mundo 2013-2021. Statista. Retrieved June 15, 2023, from https://es.statista.com/estadisticas/640133/aportacion-del-sector-turistico-al-pib-mundial/
+Tres ideas de negocio para emprender con la ciencia de los datos - Impulsa Popular | Banco Popular Dominicano. (n.d.). Impulsa Popular. Retrieved June 15, 2023, from https://impulsapopular.com/emprende-popular/tres-ideas-de-negocio-para-emprender-con-la-ciencia-de-los-datos/
 
 
 
